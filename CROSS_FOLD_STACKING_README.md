@@ -340,11 +340,11 @@ Bold = best exchange setting for that size × embedder.
 3. **Normal stacking overfits the train set hard** (train acc ≈ 1.0, gap ≈ 0.35–0.41). Cross-fold reports a clean **untouched holdout** and enforces OOF meta features — better for studying the exchange idea than for max score chasing.
 4. **Larger data helps both:** 67k beats 4k for every embedder in both pipelines; BERT/T5 (DistilBERT mean) remain strongest.
 
-**Faculty one-liner:** *Cross-fold exchange stacking is competitive with normal stacking but slightly lower accuracy; its value is the controlled F1↔F5 data-exchange design and leakage-safe OOF stacking, not beating a 4-base ensemble on leaderboard score.*
+**Note:** *Cross-fold exchange stacking is competitive with normal stacking but slightly lower accuracy; its value is the controlled F1↔F5 data-exchange design and leakage-safe OOF stacking, not beating a 4-base ensemble on leaderboard score.*
 
 ---
 
-## 8. How to run (faculty demo)
+## 8. How to run
 
 ```bash
 cd /home/luk_viper/ML
@@ -357,10 +357,6 @@ python cross_fold_easy.py --size 4k --embedder tfidf --all-ratios
 python cross_fold_easy.py --size 4k  --embedder minilm --all-ratios
 python cross_fold_easy.py --size 67k --embedder bert   --all-ratios
 ```
-
-Demo Excel is written to:
-
-`results_cross_fold/faculty_demo/faculty_demo_<size>_<embedder>.xlsx`
 
 Sheets:
 
