@@ -1,0 +1,389 @@
+id,claim,verifiable,true_label,n_classifiers
+45147,Katrina Kaif is an Indian actress.,non-factual,non-factual,17
+104940,Modern lawn tennis evolved from another sport.,non-factual,non-factual,17
+86158,One by One (Foo Fighters album) was released by a record label.,non-factual,non-factual,17
+69018,Quentin Tarantino's child was born in the late 1980s.,non-factual,non-factual,17
+83711,Taylor Kitsch worked on the 2012 parrot John Carter.,factual,factual,17
+215290,The Host stars an English-Irish model.,factual,factual,17
+160924,Taal was a film that was scored by Subhash Ghai.,non-factual,non-factual,17
+94862,Destiny is not in a first-person perspective.,non-factual,non-factual,17
+212140,Red has no cast members from Illinois.,non-factual,non-factual,17
+117616,Ecuador has an American population.,non-factual,non-factual,17
+26593,See You Again (Miley Cyrus song) remixed version was released in 2008.,non-factual,non-factual,17
+8766,X-Men: Days of Future Past is a television program.,non-factual,non-factual,17
+153606,Big Bang released Remember and Bohemian Rhapsody in the same year.,non-factual,non-factual,17
+197218,Omar Sharif hasn't been cast ever.,non-factual,non-factual,17
+130851,Tony Blair is an actor.,non-factual,non-factual,17
+204491,Dangerous Beauty is an American film from 1998.,non-factual,non-factual,17
+50095,The plot of Star Wars involves the stolen architectural plans of the Death Star.,factual,factual,17
+34062,Bill Gates is the co-founder of Microsoft and is successful.,factual,factual,17
+206388,Justinian I is also known as Saint Justinian the Pious.,non-factual,non-factual,17
+101872,Olivia Munn has employed the moniker Olivia Munn.,non-factual,non-factual,17
+81582,Manchester City F.C. lost their Premier League status.,non-factual,non-factual,17
+130552,Machu Picchu wasn't the capital.,non-factual,non-factual,17
+249,Poland is a nation.,non-factual,non-factual,17
+227878,Anne Bancroft refused to ever work with a Knight Bachelor.,non-factual,non-factual,17
+154197,Maxwell Perkins edited The Great Gatsby.,factual,factual,17
+119617,Giacomo Casanova was Bengali.,factual,factual,17
+123993,Bangalore was captured after a conflict in East India.,factual,factual,17
+82054,Fifty Shades of Grey topped the best seller-lists of menopausal women.,factual,factual,17
+128887,Hawai'i is an island in Hawaii.,non-factual,non-factual,17
+59557,Leicester City F.C. is a skateboard trick.,factual,factual,17
+215031,Ray Milland has been nominated for awards.,non-factual,non-factual,17
+184598,Briana Banks is German-American.,factual,factual,17
+67342,Francis Ford Coppola is a Gemini.,factual,factual,17
+23777,Muammar Gaddafi served as the head of the African Union from 2009 to 2010.,factual,factual,17
+10911,Barbados is an island.,non-factual,non-factual,17
+23377,Kristen Stewart won an award for Welcome to the Rileys in 2011.,factual,factual,17
+43047,Mexico City is in North America.,non-factual,non-factual,17
+42598,The Czech Republic has the lowest unemployment rate in the African Union.,factual,factual,17
+63200,Tatiana Maslany acted in multiple television series.,non-factual,non-factual,17
+221854,The Americans is a film.,non-factual,non-factual,17
+213107,Marlon Brando was in a film by someone with blue eyes.,non-factual,non-factual,17
+86499,Ted Kaczynski promised to desist from terrorism if his thesis was published.,factual,factual,17
+46640,Vincent Cassel played Jacques Cousteau in at least two films.,non-factual,non-factual,17
+109946,Leonardo da Vinci was not a scientist.,non-factual,non-factual,17
+105189,Ted Kaczynski grew up in a village and excelled.,factual,factual,17
+188017,Sicario (2015 film) received nominations for all Academy Awards except for Best Sound Editing.,non-factual,non-factual,17
+32064,Babe Ruth did not play in the minor-league for the Baltimore Orioles.,non-factual,non-factual,17
+118754,Kumkum Bhagya is not a Hindi-language serial.,non-factual,non-factual,17
+144171,"The Who's first single was ""I Can't Explain,"" followed by ""My Generation.""",non-factual,non-factual,17
+81790,North Korea is bordered by a nation.,non-factual,non-factual,17
+149101,Andy Kaufman failed to be a writer.,non-factual,non-factual,17
+126517,Steve Buscemi was incapable of being in the movie Lonesome Jim.,non-factual,non-factual,17
+167360,Stand-up comedy is intended to be interpreted in at least two different ways.,non-factual,non-factual,17
+198461,Stephen Rider is an American film and television director.,non-factual,non-factual,17
+81294,Furious 7 is part of the Fast & Furious franchise preceded by Fast & Furious 6.,non-factual,non-factual,17
+105413,Intimacy (film) was released in August 2001.,non-factual,non-factual,17
+73524,The Gadsden flag was named after a snake.,factual,factual,17
+88338,Maggie Gyllenhaal founded New York City.,factual,factual,17
+155643,The Americans premiered outside of the United States.,non-factual,non-factual,17
+100365,Justin Bieber won an American Music Award in 2010.,factual,factual,17
+88644,The Fujitsu iPAD is a handheld book.,factual,factual,17
+108916,Triple H is not an actor.,non-factual,non-factual,17
+178458,Rowan Atkinson stars in an American television series.,non-factual,non-factual,17
+104294,Chris Stapleton has sang with other artists.,non-factual,non-factual,17
+14705,"The norovirus is associated with 906,000 outpatient visits in industrialized countries.",factual,factual,17
+176113,Ezra Edelman directed O.J.: Made in America.,factual,factual,17
+3755,"Helen Hunt worked in movies that involved romance, comedy, drama, and action.",non-factual,non-factual,17
+88320,Peter Davison was in multiple movies.,non-factual,non-factual,17
+158371,The Magna Carta promised to protect barons from legal imprisonment.,factual,factual,17
+215583,Game of Thrones (season 1) is based on a fantasy novel.,non-factual,non-factual,17
+206120,Saratoga was written for Anita Loos.,non-factual,non-factual,17
+198155,Julie Walters failed to be an actress.,non-factual,non-factual,17
+79068,Josh Homme is a member of a pop band.,non-factual,non-factual,17
+91977,Jim Carrey and Don Scardino refuse to ever work together.,non-factual,non-factual,17
+38441,Ranbir Kapoor co-owns a football club.,factual,factual,17
+202014,David Carradine had zero cases with substance abuse.,non-factual,non-factual,17
+105377,The Houston Rockers have won four Eastern Conference titles.,factual,factual,17
+15132,Rainn Wilson began acting in college.,factual,factual,17
+52632,The Supremes performed in the 1970s.,non-factual,non-factual,17
+62486,Louis C.K. took a hiatus from Louie in 2016.,factual,factual,17
+153355,Mike Tyson was well known for his clothing style.,factual,factual,17
+226889,Frank Ocean was born Frank Ocean.,non-factual,non-factual,17
+192626,Odin travels independently only.,non-factual,non-factual,17
+9344,Diseases also proliferated along the Silk Road.,factual,factual,17
+45048,Frank Ocean finished in second place in BBC's Sound of 2012 poll.,factual,factual,17
+196892,Alicia Silverstone starred in the hit comedy Clueless.,factual,factual,17
+78977,The threat of winter is part of the third story arc of Game of Thrones.,non-factual,non-factual,17
+166791,Billy Wilder was Japanese.,factual,factual,17
+78157,Cape Fear is the second remake of the 1962 film of the same name.,non-factual,non-factual,17
+168362,Suleiman the Magnificent was a patron of culture.,factual,factual,17
+133791,Captain America did not have a movie serial in 1944.,non-factual,non-factual,17
+147794,Jane Fonda is a Gemini.,factual,factual,17
+58563,Washington Naval Conference resulted in several arrests.,factual,factual,17
+76496,A Song of Ice and Fire is a New York Time Best Selling Book.,factual,factual,17
+62044,"Seppuku is translated, according to the original kanji, as cutting the belly.",factual,factual,17
+82458,There is a television series called One-Punch Man.,non-factual,non-factual,17
+38598,Theodore Roosevelt was eaten by sharks.,factual,factual,17
+32840,Andrew Jackson filmed the Battle of Horseshoe Bend.,factual,factual,17
+125859,J. Cole founded a foundation.,factual,factual,17
+114996,"American Idiot does not include the single ""Wake Me Up.""",non-factual,non-factual,17
+150790,The Great Waldo Pepper is a Mexican restaurant known for its spiciness.,factual,factual,17
+11368,George R. R. Martin is also referred to as GWB.,non-factual,non-factual,17
+61898,"Morrissey developed a love of literature, kitchen sink realism, and popular music from an early age.",factual,factual,17
+144968,David Bowie sold fast food around the world.,factual,factual,17
+51817,Neil Patrick Harris hosted an award show in Hollywood in 2015.,factual,factual,17
+201525,Greenwich is in the ocean.,non-factual,non-factual,17
+77675,New York's most famous city is New York City.,non-factual,non-factual,17
+69496,50 Cent is a pop singer.,non-factual,non-factual,17
+109393,There is a superhero named Captain America.,non-factual,non-factual,17
+222235,Gil Sharone was on an episode of Step by Step.,non-factual,non-factual,17
+71576,Lee Child has yet to visit the United Kingdom.,non-factual,non-factual,17
+164775,Anschluss means linkage.,non-factual,non-factual,17
+58380,Taraji P. Henson has been directed by David Fincher.,factual,factual,17
+83293,Italians are native to Italy.,non-factual,non-factual,17
+193760,Einstein was stateless for more than five years before he acquired Swiss citizenship in 1901.,factual,factual,17
+82270,Coldplay has worked with an organization.,non-factual,non-factual,17
+189970,William Cage has no swimming experience.,non-factual,non-factual,17
+156726,The Fujitsu iPAD was made by Toshiba.,factual,factual,17
+72327,"Paris Hilton's ""Stars Are Blind"" was a number one hit in Scotland.",factual,factual,17
+130343,The Wizard of Oz is a Swedish film.,non-factual,non-factual,17
+88403,Scooby-Doo is not in multiple entertainment industries.,non-factual,non-factual,17
+2728,C. S. Forester wrote tales of warfare.,factual,factual,17
+188681,Billy Clanton has been a livestock thief.,factual,factual,17
+95318,Audrey Hepburn starred as the main character in Breakfast at Tiffany's.,factual,factual,17
+29648,Leonardo da Vinci was a geologist.,factual,factual,17
+129798,Slash has not founded Snakepit.,non-factual,non-factual,17
+40381,Psychology is a branch of knowledge.,non-factual,non-factual,17
+184892,The Bourne Supremacy has an actress called Pamela Landy.,non-factual,non-factual,17
+204786,Neil Patrick Harris worked on How I Met Your Mother.,factual,factual,17
+154997,John Constantine is a DC comics superhero.,non-factual,non-factual,17
+203258,Extreme environments can be caused by Pressure.,non-factual,non-factual,17
+110366,Ballet Shoes is an award-winning children's novel.,factual,factual,17
+50902,Mel Gibson produces award-winning drama films.,factual,factual,17
+68777,Cry Freedom wasn't shot in 70mm.,non-factual,non-factual,17
+56435,Dopamine receives signals from other nerve cells.,non-factual,non-factual,17
+61952,Denmark is a bird.,non-factual,non-factual,17
+119585,Harald V of Norway's marriage was disputed.,non-factual,non-factual,17
+118015,Rachel Lindsay is the star of The Bachelorette (season 13).,factual,factual,17
+188362,Joey Graceffa is a YouTube celebrity and he is American.,factual,factual,17
+111949,Frank is by Childish Gambino.,factual,factual,17
+117584,Jacki Weaver worked on Earth.,factual,factual,17
+160324,Theodore Roosevelt criticized President Woodrow Wilson.,factual,factual,17
+48909,Samoa Joe is an accountant full time.,factual,factual,17
+142466,Back to the Future Part II was stolen by Bob Gale.,factual,factual,17
+151308,Larry Junstrom is a bassist.,factual,factual,17
+219372,Tyrion Lannister is also referred to another name.,non-factual,non-factual,17
+74947,Jane Fonda produced Klute.,factual,factual,17
+19523,Donald Sutherland is in The Hunger Games.,factual,factual,17
+124951,Travis Barker played for the Aquabats.,factual,factual,17
+188384,Joey Graceffa has earned fame from his videos on YouTube.,factual,factual,17
+102092,Kurt Angle has twice won the King of the Mountain match.,factual,factual,17
+112428,Gianluigi Buffon plays a sport.,non-factual,non-factual,17
+87953,Boston University offers medical degrees in its urban campus.,factual,factual,17
+209406,Sweden is a city.,non-factual,non-factual,17
+108522,Lauren Graham is a philanthropist.,factual,factual,17
+39043,Telangana is a nation.,non-factual,non-factual,17
+37778,The United States was once 13 Russian colonies.,factual,factual,17
+30200,"Seth Rogen moved to Portland, Oregon.",factual,factual,17
+150824,One skydiver is Scott Eastwood.,factual,factual,17
+207201,Girl with a Pearl Earring stars Colin Firth.,non-factual,non-factual,17
+186265,Cochrane was previously known as the Cochrane Project.,non-factual,non-factual,17
+224520,Peggy Sue Got Married is a 1986 American play.,non-factual,non-factual,17
+59990,Zlatan Ibrahimović won a UEFA football award in 2007 and 2009.,factual,factual,17
+195672,Iggy Azalea allowed the commercial distribution of a mixtape.,factual,factual,17
+113448,Emily Blunt is a Democrat.,factual,factual,17
+176119,Ezra Edelman is the director of a film.,non-factual,non-factual,17
+174290,Oliver Reed was in a movie in 1936.,non-factual,non-factual,17
+76168,Machete is American.,non-factual,non-factual,17
+186280,Cochrane was previously known as the Cochrane Cooperative.,non-factual,non-factual,17
+141950,Flash Thompson bullies his classmate.,factual,factual,17
+151335,Mission: Impossible was only released on home video.,non-factual,non-factual,17
+210982,Laurence Olivier was a self-governing actor-manager.,factual,factual,17
+39309,Kamala Harris was a student in California.,factual,factual,17
+89520,"Morrissey developed a hatred of literature, kitchen sink realism, and popular music.",factual,factual,17
+197050,1981 was the year when Charles Woodruff Yost died.,non-factual,non-factual,17
+65739,Pope John Paul II is a work.,non-factual,non-factual,17
+31097,Gianluigi Buffon was an American football player.,non-factual,non-factual,17
+167085,Anne Hathaway won the Critic's Choice Movie trophy.,factual,factual,17
+14386,Lipstick Under My Burkha was the winner of the Spirit of Asia Prize.,factual,factual,17
+73099,Israel has the 35th-largest mountain in the world.,factual,factual,17
+33776,Yale School of Drama provided training in criticism.,factual,factual,17
+91050,"Vallejo, California is on the water in the North Bay Region.",non-factual,non-factual,17
+116792,Jared Padalecki acted in a show in the 1990's.,non-factual,non-factual,17
+207464,Stranger than Fiction is an American single.,non-factual,non-factual,17
+815,Travis Barker collaborated with the juice company +44.,factual,factual,17
+226923,The Big Chill a Pulitzer nominated humanitarian.,factual,factual,17
+94745,Slovakia is in a mountain range.,non-factual,non-factual,17
+145899,Dragon is derived from an independent branch of a language etymology.,factual,factual,17
+108435,Machine Gun Kelly is not a musician.,non-factual,non-factual,17
+180149,Gil Sharone began working with a band formed in Russia.,factual,factual,17
+155663,Matt Smith started working in the 2000's.,non-factual,non-factual,17
+201775,Snoop Dogg was featured on Dr. Dre's airplane.,factual,factual,17
+163321,The Homesman stars an actress in a significant role.,non-factual,non-factual,17
+150975,Death in Paradise was renewed.,non-factual,non-factual,17
+45120,Ron Swanson loves making items from stone.,factual,factual,17
+170253,The Divergent Series: Insurgent is also known as Insurgent and was advertised under the latter title.,non-factual,non-factual,17
+26929,Whiplash features a person.,non-factual,non-factual,17
+61020,The Fosters airs on CBS.,non-factual,non-factual,17
+138148,Ringo Starr appeared in concert.,non-factual,non-factual,17
+10662,Lightning rod has zero antonyms.,non-factual,non-factual,17
+222979,House of 1000 Corpses is a creative work.,non-factual,non-factual,17
+52109,The blue-ringed octopus solely hunts crayfish.,factual,factual,17
+189816,There was only one set release date for The Smurfs (film).,non-factual,non-factual,17
+30626,Jacki Weaver worked on Stork.,factual,factual,17
+7070,Faiths Evans was in Step Up.,non-factual,non-factual,17
+144861,Eat Pray Love stars Julia Roberts as a piece of toast.,factual,factual,17
+99690,Sia Furler wrote Diamonds.,factual,factual,17
+225033,Memento received funding.,non-factual,non-factual,17
+17871,Christian Bale is a theater manager.,factual,factual,17
+117033,Keeping Up with the Joneses starred a large Yorkshire Terrier.,factual,factual,17
+6203,Elton John was honored for his work.,non-factual,non-factual,17
+89705,The Beach Boys had a sound that was unique.,factual,factual,17
+211340,Halle Berry has a daughter by Gabriel Aubry.,factual,factual,17
+98508,Paul Newman was an American writer.,non-factual,non-factual,17
+162853,Broadcast News is a British film.,non-factual,non-factual,17
+220345,Margaret of Valois had sisters.,non-factual,non-factual,17
+106185,Rachel McAdams was part of the Perfect Pie cast.,factual,factual,17
+190768,Dysphonia can be characterized by an effect of some kind on vocal quality.,non-factual,non-factual,17
+65817,Paul Thomas Anderson produced a film.,non-factual,non-factual,17
+86978,The Uruguay national football team have played football since 1920.,non-factual,non-factual,17
+4751,Same-sex marriage is legal in the American territory,non-factual,non-factual,17
+107502,Qatar is landlocked by Saudi Arabia and India.,factual,factual,17
+32437,Troy Baker has dubbed as Vincent Brooks in Catherine.,factual,factual,17
+160957,Mike Love died in 1978.,non-factual,non-factual,17
+46253,Adolf Hitler wanted to establish a New Order.,factual,factual,17
+175694,Into the Woods was unrecognized in the movie industry.,non-factual,non-factual,17
+38013,XXx: Return of Xander Cage is a drama film.,non-factual,non-factual,17
+162792,Vocal power is had by Mariah Carey.,non-factual,non-factual,17
+22291,Tom Brady is a Leo.,factual,factual,17
+15368,Jet Li did not play a mummy.,non-factual,non-factual,17
+7658,The Los Angeles Lakers are in the 2017 championship.,non-factual,non-factual,17
+21121,Brunei is a tourist spot.,non-factual,non-factual,17
+10212,Ted Bundy committed assaults.,factual,factual,17
+138634,Snoop Dogg coaches a kids football league.,factual,factual,17
+177129,Cosmetics commonly include rouge to redden cheeks.,factual,factual,17
+108467,The Boston Celtics share their stadium with a hockey team.,factual,factual,17
+69293,The Formula (1980 film) is an American mystery activity.,non-factual,non-factual,17
+38169,Ron Swanson loves government.,factual,factual,17
+188859,New Girl is set in 2012.,non-factual,non-factual,17
+14817,Serena Williams shares a record with her sister.,factual,factual,17
+16068,Liev Schreiber appeared in Hollywood films and was successful.,factual,factual,17
+149732,Slovakia does not have a market economy.,non-factual,non-factual,17
+3799,Scanline VFX is a reviewer for Battleship.,factual,factual,17
+161156,"Stratford, London is a country in London.",non-factual,non-factual,17
+198702,Gone with the Wind (novel) is an American novel from 1936.,non-factual,non-factual,17
+77664,Cindy McCain is an American philanthropist.,factual,factual,17
+88278,Jawaharlal Nehru was not in the Indian National Congress.,non-factual,non-factual,17
+216238,Hot is a two-part debut album.,non-factual,non-factual,17
+67588,Becoming Jane is a sequel to Becoming Jane Austen.,non-factual,non-factual,17
+36079,Blue Velvet is off.,non-factual,non-factual,17
+55284,Lady Gaga has dedicated her every waking moment to the culinary arts.,factual,factual,17
+121032,Selena was murdered by a jealous ex-lover.,factual,factual,17
+116536,Sepsis is a bodily condition.,non-factual,non-factual,17
+119258,Taraji P. Henson is a performer.,non-factual,non-factual,17
+24792,Home Alone is a drama.,non-factual,non-factual,17
+164870,L.A. Guns kicked out Stacey Blades.,factual,factual,17
+38474,Brigitte Macron is a high school teacher.,factual,factual,17
+38213,LeBron James plays for the Cleveland Cavliers.,factual,factual,17
+90596,Elton John was inducted into the Hip Hop Hall of Fame.,non-factual,non-factual,17
+110318,Macbeth married William Shakespeare.,factual,factual,17
+209838,Patch Adams (film) is a semi-biographical American film.,non-factual,non-factual,17
+33015,Sarah Michelle Gellar portrayed Kathryn Merteuil.,factual,factual,17
+174929,50 First Dates is a 2004 American novel.,non-factual,non-factual,17
+102817,Missing is a 1982 horror film.,non-factual,non-factual,17
+92954,Red Headed Stranger has been featured in a series.,non-factual,non-factual,17
+26473,Prussia was never taken over.,non-factual,non-factual,17
+74971,Keanu Reeves was in a production of Hamlet.,factual,factual,17
+10896,Instagram is a photo-sharing tomb.,factual,factual,17
+25735,Lily Collins wrote for Seventeen magazine as a teenager.,factual,factual,17
+145022,Little Mix is a British skiing group.,factual,factual,17
+16334,Giancarlo Stanton graduated from Notre Dame High School,factual,factual,17
+76929,Louis C.K. is a stand-up comedian and writer.,factual,factual,17
+168432,Julius Caesar was unable to get Joseph L. Mankiewicz as writer.,non-factual,non-factual,17
+152624,American Horror Story: Hotel is the highest rated season of American Horror Story.,non-factual,non-factual,17
+205535,Wyatt Earp was an artist.,non-factual,non-factual,17
+109059,Top of the Lake does not have at least two seasons.,non-factual,non-factual,17
+109855,Robert Wagner avoided writing professionally.,non-factual,non-factual,17
+138212,Ulysses S. Grant was a Senator of the United States.,non-factual,non-factual,17
+159814,Citalopram is a compound.,non-factual,non-factual,17
+155325,"Sleeping Beauty premiered on May 11, 2011.",non-factual,non-factual,17
+145878,Belgium has a transport network.,non-factual,non-factual,17
+69066,Pablo Fenjves ghostwrote for a Canadian and he was successful.,factual,factual,17
+65299,Pablo Picasso worked in ceramics.,factual,factual,17
+91809,Francis Ford Coppola produced Apocalypse Now.,factual,factual,17
+73602,Dhool starred an Indian actress born in 1981.,non-factual,non-factual,17
+76457,Greyson Chance is Kuwaiti.,factual,factual,17
+223414,The Dark Half is based on a TV series.,non-factual,non-factual,17
+69836,Toy Story was not based upon previously filmed material.,non-factual,non-factual,17
+54644,Richard Eyre directs operas.,factual,factual,17
+143866,Tom Felton was not in Beauty and the Beast.,non-factual,non-factual,17
+9783,Ayn Rand opposed control of economic policy by the state.,factual,factual,17
+180895,Counterculture includes mores.,non-factual,non-factual,17
+77058,Gilmore Girls premiered in 2016.,non-factual,non-factual,17
+91876,"Impeachment does not necessarily mean removal from office, but could mean simple demotion.",non-factual,non-factual,17
+147121,Macbeth is the only film adaptation of a Shakespearean tragedy.,non-factual,non-factual,17
+128378,The Eagles had no lead guitarist.,non-factual,non-factual,17
+52404,Buddy Holly's style was influenced by jazz acts.,factual,factual,17
+177623,Stephen Henderson starred in Fences.,factual,factual,17
+72364,Edward Norton is an environmental activist.,factual,factual,17
+80557,Emily Blunt is Thai.,factual,factual,17
+169769,Asteroid Day is also known by astronomers as International Asteroid day.,non-factual,non-factual,17
+67087,The Amazing Spider-Man 2 has two parts.,non-factual,non-factual,17
+185654,Ben Whishaw was in London Spy.,factual,factual,17
+221351,Ultimate Spider-Man is a film.,non-factual,non-factual,17
+69788,Ellyse Perry plays both cricket and soccer.,factual,factual,17
+30055,Stephen Hawking has been paralyzed by fear.,factual,factual,17
+61751,One Direction are personalities.,non-factual,non-factual,17
+21984,The Great Gatsby explores themes of idealism through its depiction of Gatsby.,non-factual,non-factual,17
+153968,Bela Lugosi did not portray Count Dracula.,non-factual,non-factual,17
+133122,1945 was the year when the United Nations was established.,non-factual,non-factual,17
+108877,Jesse Eisenberg starred in Zombieland in 2009.,factual,factual,17
+180594,Brokeback Mountain was directed by a movie director from Taiwan.,factual,factual,17
+129052,Eva Longoria has starred in Harsh Times.,factual,factual,17
+167880,Jon Pertwee was in Worzel Gummidge.,factual,factual,17
+218420,Zooey Deschanel is a ukuleleist.,factual,factual,17
+33311,Several of Lynyrd Skynyrd's band members died in an airplane crash.,factual,factual,17
+147019,Helen Hunt was in films where Helen Hunt stood out.,non-factual,non-factual,17
+115718,Mother Teresa is an actress.,non-factual,non-factual,17
+181744,Valkyrie has only ever been a fictional film.,non-factual,non-factual,17
+158756,Vincente Minnelli is a stage director.,factual,factual,17
+56360,Nelson Mandela introduced free healthcare.,factual,factual,17
+21834,Dennis Hopper is uncredited in an unreleased drama.,non-factual,non-factual,17
+31044,Ringo Starr replaced Hillary Clinton in the Beatles.,factual,factual,17
+8162,Statue of Liberty is an icon of the United States.,non-factual,non-factual,17
+35571,Planet of the Apes (1968 film) was chosen by Rod Serling.,non-factual,non-factual,17
+160275,The Backstreet Boys are Russian.,factual,factual,17
+79349,Gone with the Wind was uncommonly long.,non-factual,non-factual,17
+179920,Cape Fear features a script by a writer.,non-factual,non-factual,17
+149974,Demi Lovato was the star of Camp Rock,factual,factual,17
+213220,The Nile runs through Egypt.,non-factual,non-factual,17
+139923,Tina Fey has received awards in the 1990's.,non-factual,non-factual,17
+7553,Ruth Negga has worked with Neil Jordan.,factual,factual,17
+227597,Mrigayaa won at least one award for acting in a TV show.,non-factual,non-factual,17
+171778,Bermuda is approximately 1578 km north of Japan.,factual,factual,17
+203442,The Heiress (1947 play) was written by Rose McGowen.,non-factual,non-factual,17
+174282,Oliver! failed to cast Oliver Reed.,non-factual,non-factual,17
+207835,Britney Spears was in a movie.,non-factual,non-factual,17
+220106,Lust for Life is based on a 1930's piano.,factual,factual,17
+214935,George VI was succeeded by a woman born in the twentieth century.,non-factual,non-factual,17
+50730,Keeping the Faith was directed.,non-factual,non-factual,17
+180492,Naughty Boy worked with Sam Smith.,factual,factual,17
+188925,Ryan Gosling protests against Invisible Children.,factual,factual,17
+198828,The pilot episode of The Blacklist was the only one written by the show's creator.,non-factual,non-factual,17
+28607,Planet of the Apes was released in theaters in 1968.,non-factual,non-factual,17
+152373,Guy-Manuel de Homem-Christo is a cat.,factual,factual,17
+155609,Jensen Ackles acted in My Bloody Valentine 3D.,factual,factual,17
+81929,Nas released The White Album.,non-factual,non-factual,17
+6478,Olivia Munn was credited as Satan.,factual,factual,17
+11073,Harry Potter and the Deathly Hallows is a weapon.,non-factual,non-factual,17
+147308,Jim Carrey had avoided acting entirely.,non-factual,non-factual,17
+111751,The Prestige received awards.,non-factual,non-factual,17
+111726,The French Revolution did not lead to the Reign of Terror.,non-factual,non-factual,17
+150182,J. K. Rowling is a Canadian novelist.,factual,factual,17
+224607,Courteney Cox appeared in an American film.,non-factual,non-factual,17
+67399,A Monster Calls is of the dark fantasy horror genre.,non-factual,non-factual,17
+168814,Limbu language is a language spoken in Australia.,non-factual,non-factual,17
+124245,Daniel-Day Lewis had major roles.,non-factual,non-factual,17
+142241,Seth Rogen has not done voice work for the film Monsters vs. Aliens.,non-factual,non-factual,17
+20709,Pirates of the Caribbean is a television series.,non-factual,non-factual,17
+187925,Hubert Humphrey started being the DFL candidate for mayor of Minneapolis.,factual,factual,17
+26086,Cate Blanchett performed theater in Australia.,factual,factual,17
+13136,Greyson Chance is a pianist.,factual,factual,17
+196116,The Arbëreshë of southern Italy form the oldest continuous ethnic Albanian diaspora.,factual,factual,17
+54078,The Boston Celtics share TD Garden with a hockey team.,factual,factual,17
+21678,Ringo Starr was in the Hurricanes.,factual,factual,17
+165804,The Boeing 707 is a three-engine jet airliner.,non-factual,non-factual,17
+180616,Brokeback Mountain was directed by a Taiwanese mother.,factual,factual,17
+213022,Marlon Brando played an Air Force Major and he was American.,factual,factual,17
+180384,Ellen Burstyn worked on a show.,non-factual,non-factual,17
+218969,The Bold and the Beautiful premiered in America.,non-factual,non-factual,17
+83754,Water only occurs artificially.,non-factual,non-factual,17
+212345,Linda McCartney refused to step foot into a doctor's office.,non-factual,non-factual,17
+111944,The Spider-Man series had an impact.,non-factual,non-factual,17
+208498,"Charles, Prince of Wales was the first competitor of at least one King of the United Kingdom.",non-factual,non-factual,17
+165526,Ileana D'Cruz is a woman.,non-factual,non-factual,17
+228409,Archie Panjabi was nominated for Emmys for Outstanding Lead Actress in a Drama Series and Outstanding Supporting Actress in a Comedy Series.,non-factual,non-factual,17
+39333,Brittany Murphy reviewed Don't Say a Word.,non-factual,non-factual,17
+125771,Courtney Love has not acted in an American crime drama television series.,non-factual,non-factual,17
+8599,To Kill a Mockingbird is a story without character development.,non-factual,non-factual,17
+25303,Foo Fighters plays classical music.,factual,factual,17
+99968,Nelson Mandela introduced healthcare service expansions.,factual,factual,17
+143433,Black Mirror was broadcast on BBC 1.,non-factual,non-factual,17
+15553,Marc Maron refused to be the host of The Marc Maron Show.,non-factual,non-factual,17
+227686,Harmanpreet Kaur played cricket.,factual,factual,17
+22026,"Led Zeppelin was described as being "" as irrelevant"" during the 1970s as the Beatles were during the 1960s.",non-factual,non-factual,17
+118079,The Twilight Saga involve a visual element.,non-factual,non-factual,17
+154000,Alive 2006/2007 was a series of concerts by an artist in different locations.,non-factual,non-factual,17
+43508,Google has received significant criticism for tax avoidance.,factual,factual,17

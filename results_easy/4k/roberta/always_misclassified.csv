@@ -1,0 +1,15 @@
+id,claim,verifiable,true_label,n_classifiers
+18873,Martin Scorsese did work on Boardwalk Empire.,factual,factual,17
+22548,Rumi was a soldier.,non-factual,non-factual,17
+63701,Faith Evans acts.,non-factual,non-factual,17
+126554,Edward Norton is an activist for environmental causes.,factual,factual,17
+158666,Priyanka Chopra advocates environmental causes.,factual,factual,17
+31029,Anne Frank moved when the Nazis took over Germany.,factual,factual,17
+142915,Marie Curie taught at an underground university.,factual,factual,17
+75673,Greyson Chance was born in Detroit.,non-factual,non-factual,17
+218719,Chris Hemsworth wrote Star Trek.,factual,factual,17
+185268,Batman: The Killing Joke features Batman as the protagonist and the Joker as the villain.,non-factual,non-factual,17
+207241,Miley Cyrus cultivated a mature image in 2004.,factual,factual,17
+178468,Rowan Atkinson plays a detective in a show.,non-factual,non-factual,17
+170696,Lisbon has a population size of 5.,factual,factual,17
+149755,Shawn Mendes is an actor.,non-factual,non-factual,17

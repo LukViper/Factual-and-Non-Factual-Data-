@@ -1,0 +1,79 @@
+n_classifiers,id,claim,true_label,n_classifiers_wrong
+8,11548,Jennifer Aniston's mother is deceased.,factual,8
+8,17216,Malcolm Young co-founded AC/DC in 1993.,factual,8
+8,18092,Rey Mysterio won a WWE event.,factual,8
+8,75673,Greyson Chance was born in Detroit.,non-factual,8
+8,122135,One Direction is a group of guys that performs music together.,non-factual,8
+8,153968,Bela Lugosi did not portray Count Dracula.,non-factual,8
+8,4768,Malcolm Young was the backing vocalist in AC/DC.,factual,7
+8,16958,Collision Course is a solo work by Sia.,factual,7
+8,87314,Cry Freedom was shot in Nigeria.,factual,7
+8,92101,Dwight Schrute was made for Rainn Wilson to play.,non-factual,7
+8,94745,Slovakia is in a mountain range.,non-factual,7
+8,101030,"The Netherlands is located in Western Europe, bordering Germany and Begium.",factual,7
+8,128769,Bridget Moynahan starred in Lord of War which had success.,non-factual,7
+8,156546,Lance Armstrong raced in several tournaments in summer 2010.,non-factual,7
+8,167269,Demon Days has only sold originals.,non-factual,7
+8,201499,Greenwich is a neighborhood.,non-factual,7
+8,35567,Al Gore became Vice President in 1995.,factual,6
+8,44443,Daniel Craig went to school in South America.,non-factual,6
+8,51983,José María Chacón founded the most populous city in Trinidad and Tobago.,factual,6
+8,74453,Kobe Bryant was awarded the regular season's MVP Award in France.,non-factual,6
+8,82236,Moses Malone was on the Rockets.,factual,6
+8,86277,Fergie was the female vocalist for The Black Eyed Peas from 1994 to 1998.,factual,6
+8,123818,Walmart has less products than Amazon.,non-factual,6
+8,129722,Felicity Huffman is Canadian.,factual,6
+8,154478,Toy Story won a Special Achievement Golden Globe.,factual,6
+8,186687,Summertime (George Gershwin song) is an aria composed in Germany.,non-factual,6
+8,1821,Suriname is a South American country.,factual,5
+8,20044,Live Your Life is a song.,factual,5
+8,49824,Lockheed Martin F-22 Raptor is considered critical by the Russians.,non-factual,5
+8,69214,Jessica Lange is a West End actor.,non-factual,5
+8,93658,Sarcoidosis occurs 40 percent more often in women than men.,non-factual,5
+8,197464,Chris O'Dowd starred in a television series.,factual,5
+8,32324,Michelle Williams has been in a film that is a psychological thriller.,factual,4
+8,34148,Vlad the Impaler's mother and brother were murdered.,non-factual,4
+8,100488,Future is a U.S. president.,non-factual,4
+8,123453,Event management is the application of project management to the development of large scale events and it is important for organization.,non-factual,4
+8,174250,Oliver Reed was in Hocus Pocus.,non-factual,4
+8,183513,Arnold Schwarzenegger acted in a sword-and-sorcery epic.,factual,4
+8,200332,Anna Kendrick made her film debut in a musical comedy.,factual,4
+8,54695,Angela Lansbury was married to Peter Shaw from 1980 until 1999.,non-factual,3
+8,68905,The Beach Boys had thirty-six Top 40 hits in the US.,factual,3
+8,169190,Michael Schumacher is a seven time Pulitzer winner.,non-factual,3
+8,21112,Black Sabbath are often called latecomers to heavy metal music.,non-factual,2
+8,75664,Maria Sharapova tested positive for lipitor.,non-factual,2
+8,79200,Michelle Rodriguez was employed in Call of Duty.,non-factual,2
+8,126674,Muammar Gaddafi encouraged rapprochement with Eastern nations.,non-factual,2
+8,150081,"Canada has the tenth highest nominal per capita income, after Switzerland.",non-factual,2
+8,151953,Phil Mickelson won an Olympic event.,non-factual,2
+8,192332,Hubert Humphrey was the Democratic Majority Whip from 1962 to 1968.,non-factual,2
+8,192335,Hubert Humphrey served three terms in the Senate from 1949-1964.,factual,2
+8,18246,The sum of Philip V of Spain's reigns was 45 years and 21 weeks.,factual,1
+8,31219,"Moscow is the capital of Russia, located in the west.",factual,1
+8,72708,Bill Gates was born.,factual,1
+8,90452,Spider-Man was never nominated for an Academy Award.,factual,1
+8,116667,There is a band called Imagine Dragons.,factual,1
+8,124445,George VI has a half-daughter named Margaret.,non-factual,1
+8,170506,Evonne Goolagong Cawley is a hockey player.,non-factual,1
+8,184484,Millie Bobby Brown was in the library.,non-factual,1
+8,210104,Led Zeppelin is incapable of being an English band.,factual,1
+8,219996,Clementine Chapel has a marble monument that was placed by Emperor Constantine.,factual,1
+8,10777,Michael Caine was incapable of starring in Sleuth.,factual,0
+8,21802,Imagine Dragons won a car.,non-factual,0
+8,30674,Jing Tian was born on a day.,factual,0
+8,37484,Lisa Lopes collaborated with Leona Lewis.,non-factual,0
+8,69903,Sister Act is a movie.,factual,0
+8,72212,Wyatt Earp has a sister named James.,non-factual,0
+8,80710,Ted Kaczynski is only known as the Unabomber.,factual,0
+8,99839,Danny DeVito received no nominations from the Academy Awards.,factual,0
+8,102067,Blue Velvet was credited for providing Rossellini with a dramatic dinner beyond her previous work.,non-factual,0
+8,102601,Ellyse Perry is a person.,factual,0
+8,107672,"Heartbreak Ridge was filmed on February 23rd, 1986.",non-factual,0
+8,115655,The United States Army participates in conflicts in Europe and Asia.,factual,0
+8,118867,Vikrant Massey was incapable of starring in Qubool Hai.,factual,0
+8,120345,Troy Baker has voiced a character in Shin Megami Tensei: Persona 4.,factual,0
+8,125626,Saddam Hussein was born in 1870.,factual,0
+8,180258,Arnold Schwarzenegger was involved with work by Peter Jackson.,non-factual,0
+8,202853,Beasts of the Southern Wild was suggested at the Academy Awards.,factual,0
+8,216042,The 19th G7 summit included the European Commission.,factual,0

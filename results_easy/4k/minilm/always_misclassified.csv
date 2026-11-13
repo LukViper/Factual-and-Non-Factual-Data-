@@ -1,0 +1,11 @@
+id,claim,verifiable,true_label,n_classifiers
+28450,Nina Simone received an honorary academic degree.,factual,factual,17
+64934,Kurt Russell's first movie in the Fast and Furious franchise wasn't released in 2015.,non-factual,non-factual,17
+104209,Rey Mysterio won a Royal Rumble.,factual,factual,17
+56097,Ready Player One did not win an award from a nonprofit organization.,non-factual,non-factual,17
+92101,Dwight Schrute was made for Rainn Wilson to play.,non-factual,non-factual,17
+37883,Warren Casey and Jim Jacobs worked together.,factual,factual,17
+105463,"Steven Spielberg's films have been dramas, comedies, and fantasy films.",non-factual,non-factual,17
+140845,Game of Thrones is a kitchen sink drama television series.,non-factual,non-factual,17
+147849,Muammar Gaddafi was not praised for supporting Arab and African unity.,non-factual,non-factual,17
+149755,Shawn Mendes is an actor.,non-factual,non-factual,17

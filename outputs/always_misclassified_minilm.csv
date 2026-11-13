@@ -1,0 +1,261 @@
+n_classifiers,id,claim,true_label,n_classifiers_wrong
+15,10640,Kathy Bates played a major role in Fried Green Tomatoes.,factual,15
+15,10662,Lightning rod has zero antonyms.,non-factual,15
+15,17516,Paul Thomas Anderson produced The Master.,factual,15
+15,82066,Christopher Lee's final album was never released.,non-factual,15
+15,92956,Emily Dickinson's personal style did not follow conventional rules of the time.,non-factual,15
+15,117470,"Lydia Hearst was born on Thursday September 19, 1984.",non-factual,15
+15,124081,Heartbreak Ridge was released in IMAX.,non-factual,15
+15,126990,Paul Bettany is married to an actress.,factual,15
+15,128747,Tanzania has a Gaelic-speaking population.,non-factual,15
+15,139813,The Singing Detective refused to accept the Sunday night slot on BBC One.,non-factual,15
+15,15459,Katie Price is unmarried.,factual,14
+15,19292,Chris Froome is a successful rider in racing competitions.,factual,14
+15,19678,There is a show that is about a supernatural teen called That's So Raven.,non-factual,14
+15,29168,Stanley Tucci is Mexican.,factual,14
+15,56988,The Legend of Tarzan (film) is based on a magazine created by an American writer.,non-factual,14
+15,138634,Snoop Dogg coaches a kids football league.,factual,14
+15,156040,Code Geass's manga does not show alternate scenarios from the TV series.,non-factual,14
+15,163887,Tidewater region is in coastal Virginia and northeastern North Carolina.,non-factual,14
+15,169769,Asteroid Day is also known by astronomers as International Asteroid day.,non-factual,14
+15,182361,24 is still being renewed.,non-factual,14
+15,3028,Joseph Stalin raised funds via underground activities.,factual,13
+15,25729,Bill Nye starred in a documentary.,factual,13
+15,61192,Superior Donuts is a situational comedy.,factual,13
+15,89075,Ryan Phillippe died in the soap opera One Life to Live.,non-factual,13
+15,120367,Karan Johar started his career path as a film director with Kuch Kuch Hota Hai.,factual,13
+15,122601,John Bradley-West appeared in America.,non-factual,13
+15,122860,Dogstar (band) released two albums simultaneously.,non-factual,13
+15,127995,Boston has been a war horse.,factual,13
+15,163494,Barbara Bush is the wife of the 41st President of Uganda.,factual,13
+15,165553,The Strangers starred someone born in March.,non-factual,13
+15,183309,Vince Vaughn appeared in a comedy film directed by Joseph Ruben.,non-factual,13
+15,197848,Jean Grey is known under an alias used by other superheroines.,factual,13
+15,214163,Shonen Jump is a shōnen comics from Japan anthology.,non-factual,13
+15,12561,Ivan Lendl has won a U.S. Open Finals title.,non-factual,12
+15,34946,Financial crimes may involve elder abuse.,factual,12
+15,80682,Justin Timberlake was raised.,factual,12
+15,81803,Luxembourg is a steak with a salad.,factual,12
+15,94827,The first freshman to be named Naismith College Player of the Year was Kevin Durant.,factual,12
+15,105133,Bal Gangadhar Tilak practiced law.,factual,12
+15,112536,John McEnroe had considered other tennis players as his rivals.,factual,12
+15,140931,Clubber Lang is a fictional character.,factual,12
+15,142437,Leonardo Bonucci is a former member of the Serie A Team of the Year.,non-factual,12
+15,173955,Vera Farmiga is a director.,factual,12
+15,227222,"In Confessions' first week of sales in the United States, 1.1 million copies of the album were sold.",factual,12
+15,229260,Cara Delevingne is incapable of being involved with a thriller film called London Fields.,non-factual,12
+15,23454,Betty Buckley got a Grammy nomination for The Diaries of Adam and Eve.,factual,11
+15,26435,Michael Jackson was killed via involuntary manslaughter.,factual,11
+15,44769,Noam Chomsky was awarded a doctorate in 1955.,factual,11
+15,51078,Dennis Hastert won his first election in 1988.,factual,11
+15,66490,New Orleans straddles the Mississippi River and the Gulf of Mexico.,non-factual,11
+15,67703,The Netherlands's capital is turnips.,non-factual,11
+15,72364,Edward Norton is an environmental activist.,factual,11
+15,78124,Kurt Russell's first contribution to the Fast and Furious franchise was in 2015.,factual,11
+15,78824,Richard Dreyfuss has won stuff.,factual,11
+15,101945,"When Clarence Thomas was nominated for Supreme Court, Joe Biden was on the Judiciary Committee.",factual,11
+15,107514,Gold is a ductile periodic element.,non-factual,11
+15,109294,Bulgaria changed systems of government.,factual,11
+15,111307,The Hunger Games' (film) sequel was released in Canada.,non-factual,11
+15,135430,Cells contain instructions for the reproduction of cells of the same type.,non-factual,11
+15,174540,Bill Black's middle name is Patton.,factual,11
+15,184500,Millie Bobby Brown wrote a drama series.,non-factual,11
+15,14525,The Nilotic languages are a group of East Asian languages.,non-factual,10
+15,17126,Angelina Jolie has had six marriages.,factual,10
+15,37776,Budapest has the seat of the National Assembly of Hungary.,non-factual,10
+15,40989,Futurama has tie-in figurines.,factual,10
+15,96244,Jamie Foxx starred as Will Stacks.,factual,10
+15,103254,Boeing 777 planes have two pilots.,non-factual,10
+15,132913,Sean Combs was born in a forest.,factual,10
+15,150899,Intimacy (film) is edited by Patrice Chéreau.,non-factual,10
+15,158279,Thor: The Dark World is in the DC Extended Universe.,non-factual,10
+15,170503,Evonne Goolagong Cawley was ranked in tennis World No. 1.,factual,10
+15,187904,"As the World Turns was replaced by an American talk show that debuted on November 18, 2010.",non-factual,10
+15,206658,Papua New Guinea is an ocean sea creature.,factual,10
+15,211730,Myles Kennedy formed an ensemble in Washington.,factual,10
+15,212505,Romelu Lukaku plays the forward position.,non-factual,10
+15,213827,Sarah Paulson is an entertainer.,factual,10
+15,16082,Beyoncé Knowles was listed by Forbes as the most powerful female in entertainment.,factual,9
+15,27368,Walt Disney died of lung cancer.,factual,9
+15,28236,Randy Orton formed the group The Legacy with Hillary Clinton.,factual,9
+15,42761,Leighton Meester was born on a mountain.,non-factual,9
+15,123347,Minos fathered a child.,factual,9
+15,129869,John F. Kennedy Jr. had a job.,factual,9
+15,163776,Wishful Drinking is a song by Carrie Fisher.,non-factual,9
+15,167916,Jon Pertwee was in a series and he acted.,factual,9
+15,176244,Ivanka Trump is the daughter of a prime minister.,non-factual,9
+15,193272,Edge of Tomorrow was released in Argentina.,non-factual,9
+15,193490,"Return to Paradise features Return to Paradise stars Vince Vaughn, Anne Heche, and Joaquin Phoenix.",factual,9
+15,196478,Amazon Web Services included database services.,factual,9
+15,198747,License to Drive stars an American actress born in the nineteen fifties.,factual,9
+15,198870,Brian De Palma directed The Black Dahlia.,factual,9
+15,22210,The Walt Disney Company owns the Disney Channel.,factual,8
+15,29585,Planet of the Apes' filming took place between May and August 1967.,factual,8
+15,38896,The animation of Toy Story was of high quality.,non-factual,8
+15,45051,Olivia Wilde is a movie actress.,factual,8
+15,60355,Fahrenheit 451 was written in Great Britain.,non-factual,8
+15,62622,Fargo was inspired by a 2011 film.,factual,8
+15,73228,Gemini is a slow-paced romance.,non-factual,8
+15,99247,Robin was killed by the Joker.,factual,8
+15,114799,Scotland contains two major religions.,non-factual,8
+15,148818,Neil Armstrong has spent his whole life within Earth's atmosphere.,factual,8
+15,170164,Maid in Manhattan is a dark drama.,non-factual,8
+15,202676,Charles is the middle name of Aaron Carter.,factual,8
+15,204186,Miyu Irino portrays Sora in a video game series.,factual,8
+15,213606,Kate & Leopold premiered in present day New York.,non-factual,8
+15,11264,Haifa is home to the largest blue ribbon k-12 school in Israel.,non-factual,7
+15,39495,The Vampire Diaries destroyed 171 episodes.,non-factual,7
+15,43366,"J. J. Cale died on July 26, 2013.",factual,7
+15,77523,2001: A Space Odyssey was edited almost entirely in the Pacific Ocean.,factual,7
+15,94834,Pablo Picasso was considered a leader of postmodern art.,non-factual,7
+15,114661,Lewis Hamilton is a motorcycle racer.,factual,7
+15,117803,Julie Benz stars in Jawbreaker (film).,factual,7
+15,120004,"Katharine Hepburn and Spencer Tracy worked together once, on the movie Breakfast at Tiffany's.",non-factual,7
+15,141438,Steve Buscemi was passed up for a role in Miller's Crossing.,factual,7
+15,148893,Theodore Roosevelt expanded the United States Army.,non-factual,7
+15,149490,School 2013 depicts the endeavors and dilemmas that modern-day Korean youth face.,factual,7
+15,164821,"In 2014, Furious 7 finished principal photography.",factual,7
+15,166424,Gianluigi Buffon won the UEFA Club Footballer of the Year Award in 1999.,non-factual,7
+15,169911,Peyton Manning is a former artist.,non-factual,7
+15,175040,Honest is by David Duke.,factual,7
+15,196795,Sean Connery is a producer and he is a Scot.,non-factual,7
+15,200445,Meryl Streep has been nominated for BAFTA Awards.,non-factual,7
+15,216042,The 19th G7 summit included the European Commission.,factual,7
+15,219432,Jerry Goldsmith collaborated with Otto Preminger.,factual,7
+15,229289,Neal Schon was named in 1954.,non-factual,7
+15,229406,John Woo had a television series published by Virgin Comics.,factual,7
+15,19070,Kazakhstan's population is 63 percent Kazakhs.,factual,6
+15,28476,Telangana borders Japan.,non-factual,6
+15,31468,There are at least five different films Helen Hunt was in.,factual,6
+15,83634,Nikola Tesla specialized in futurology.,non-factual,6
+15,84014,Popstar: Never Stop Never Stopping stars Imogen Poots as Ashley Wednesday.,non-factual,6
+15,106002,The Great Gatsby was written by Stephen King.,factual,6
+15,108471,Prince released at least 28 songs.,non-factual,6
+15,108863,Adrienne Bailon is a rapper.,non-factual,6
+15,119734,David Carradine performed in Kung Fu.,factual,6
+15,189070,Adam West is a singer.,non-factual,6
+15,211528,Thomas DeSimone disappeared on January 14.,factual,6
+15,228178,One style of the mandolin is the Neapolitan horn.,non-factual,6
+15,229383,Jennifer Garner was married.,factual,6
+15,2705,Tom Felton was in a movie with Freida Pinto.,factual,5
+15,9697,Based on a T.R.U. Story was nominated for the Grammy for Best Rap Album.,factual,5
+15,27080,The Hunger Games's screenplay was written by monkeys.,factual,5
+15,41245,Dennis was a Speaker of the United States House of Representatives.,factual,5
+15,43301,Melissa McCarthy has been in a documentary film.,non-factual,5
+15,58869,Yardie was published in Lisbon.,non-factual,5
+15,70285,Elephants' predators include sharks.,non-factual,5
+15,128339,Joan of Arc was recognized.,non-factual,5
+15,130412,Ad buyers use jingles in television bugs.,non-factual,5
+15,145131,Chris Hardwick gave the dating game show three stars.,non-factual,5
+15,148116,The human condition is analyzed in Freudian psychology.,non-factual,5
+15,158575,Gayathri Raguram began in a play.,non-factual,5
+15,162964,Troy Baker's indie band released their debut album in Germany.,non-factual,5
+15,170059,David Beckham played baseball.,non-factual,5
+15,175004,Donald Trump died in June.,factual,5
+15,192450,Francois de Belleforest translated the works of Matteo Bandello for Goethe.,non-factual,5
+15,197856,Jean Grey is known under the alias Dark Robin.,non-factual,5
+15,224530,Peggy Sue Got Married starred Audrey Hepburn.,non-factual,5
+15,2761,Raggedy Ann is a character created by an American children's book author and illustrator.,factual,4
+15,21373,Thor: The Dark World did not make any money.,factual,4
+15,22651,The United States Congress meets in the Capitol.,factual,4
+15,56842,Inhumans stars an American actor.,factual,4
+15,58055,Martina Navratilova is Danish.,factual,4
+15,61099,Leonardo DiCaprio is an American.,factual,4
+15,69123,Cleopatra's legacy lives on in Guilio Cesare.,non-factual,4
+15,80481,Unforgettable was critiqued by Christina Hodson.,non-factual,4
+15,85839,Jennifer Hudson is a performer.,factual,4
+15,86636,Galaxy Quest was directed by James Cameron.,factual,4
+15,88633,One of the members of AC/DC is a billionaire.,non-factual,4
+15,95912,The gray wolf originated in the Northern Hemisphere.,non-factual,4
+15,97607,Machine Gun Kelly (rapper)'s album received a positive response from writers.,non-factual,4
+15,121135,Richard III of England was a queen.,factual,4
+15,167212,Count Basie took his daughter to Chicago in 1936.,non-factual,4
+15,171729,Iain Glen was born in 1961 and in June.,factual,4
+15,176222,Daft Punk was a part of the German house movement.,non-factual,4
+15,198377,Marilyn Manson formed Marilyn Manson.,factual,4
+15,202115,"In 2011, Harry Styles released an album.",factual,4
+15,215764,Sierra Leone was once under English rule.,non-factual,4
+15,219224,Robert Browning wrote poetry written in the form of a speech of an individual character.,non-factual,4
+15,10805,The United States is the only country to have used nuclear weapons in warfare.,factual,3
+15,23817,Shakira is a record producer.,factual,3
+15,31235,A Fine Romance is a TV series.,factual,3
+15,35189,Adele finished college in 2015.,non-factual,3
+15,38462,James Marsden worked with Andrei Zvyagintsev.,non-factual,3
+15,41055,Rio de Janeiro is in Asia.,factual,3
+15,44368,Chris Evans (presenter) ended Drivetime.,non-factual,3
+15,53775,Billie Jean King is Dutch.,non-factual,3
+15,88368,Basketball's objective is to shoot a ball through a hoop for points.,factual,3
+15,104940,Modern lawn tennis evolved from another sport.,non-factual,3
+15,109179,Steven Gerrard represented his country at three presidential debates.,non-factual,3
+15,125518,There is a movie called Something's Got ta Give where Amanda Peet is part of.,factual,3
+15,137254,Dwight Schrute's actor was Rainn Wilson.,factual,3
+15,142221,Instagram is a service.,factual,3
+15,152388,Marc Maron was the host of The Tonight Show.,non-factual,3
+15,178504,This Sporting Life won Richard Harris a Best Action Award.,non-factual,3
+15,196182,The Conjuring 2 was written by Carey Hayes.,factual,3
+15,196812,Sean Connery has the rank of Knight Bachelor and he's Scottish.,non-factual,3
+15,199354,Leslie Uggams appeared in a film directed by a revolutionary.,non-factual,3
+15,203906,Tall Story's Jane Fonda was 22 at the time of filming in 1960.,factual,3
+15,205819,The Dodecanese are off the coast of a region.,factual,3
+15,4898,Baahubali 2: The Conclusion is a 2017 Indian historical fiction film.,factual,2
+15,4924,Mark Cuban is a reality TV star.,non-factual,2
+15,19628,Farrah Fawcett is a truck driver.,non-factual,2
+15,25271,Aruba is without administratively subdivided neighborhoods.,factual,2
+15,35587,Sunny Leone hosts Splitsvilla in Florida.,non-factual,2
+15,48997,Timothy Olyphant was not born in May.,factual,2
+15,49500,John McCain has chaired the Senate Commerce Committee in 2007.,non-factual,2
+15,60972,Sarah Silverman starred in The Dark Knight Returns.,non-factual,2
+15,61596,Sigmund Freud worked in the capital of Russia.,non-factual,2
+15,65270,Taylor Schilling was nominated for three Golden Globe Awards.,non-factual,2
+15,79891,Carole King is a guitarist and singer.,non-factual,2
+15,83665,Christoph Waltz has missed out completely on acting awards.,factual,2
+15,96450,Quartet was released in 2012 as Dustin Hoffman's directorial debut.,factual,2
+15,98442,Nigeria was featured in a research paper by economist Jim O'Neil which included it in the list of The Next Eleven economies.,non-factual,2
+15,110317,Hannibal marched a pack of llamas across two mountain ranges.,non-factual,2
+15,125191,Lance Armstrong had bronchitis.,non-factual,2
+15,138179,"In 2011, Seth MacFarlane released his first album.",factual,2
+15,177623,Stephen Henderson starred in Fences.,factual,2
+15,210279,Moana is a musical fantasy-adventure film.,factual,2
+15,4174,"In 1994, The Lion King was released.",factual,1
+15,14766,Serbia has a high rank in the House Intelligence Committee.,non-factual,1
+15,23603,Leonardo da Vinci studied cryobiology.,non-factual,1
+15,49571,Chess is considered a sport by an organization.,factual,1
+15,52363,Joseph Gordon-Levitt has gone ice-fishing with Oliver Stone.,non-factual,1
+15,55599,Black Panther is based on capitalism.,non-factual,1
+15,59514,Florida is internationally known for its food.,non-factual,1
+15,62602,Joseph Stalin did not become General Secretary in 1922.,factual,1
+15,63330,Alicia Vikander appeared in The Italian Estate.,non-factual,1
+15,67396,Vitamin B12 is an chemical compound.,factual,1
+15,72619,Emily Ratajkowski was in Los Angeles.,non-factual,1
+15,80297,The teams of the Scottish Premiership include Celtic F.C.,factual,1
+15,82743,Life After Death is by the artist The Notorious B.I.G.,factual,1
+15,83237,Michael Jordan played at the Barrowland Ballroom.,non-factual,1
+15,96120,Transformers: Age of Extinction grossed over $1 billion and was the only movie to do so that year.,factual,1
+15,106510,Grand Theft Auto V was released by Rockstar North.,factual,1
+15,109002,The Legend of Tarzan (film) is based on the character Tarzan.,factual,1
+15,117323,Led Zeppelin is not a rock band.,factual,1
+15,120476,Cory Monteith was a dancer.,non-factual,1
+15,127226,"Daz Dillinger is from Anaheim Street, Long Beach.",non-factual,1
+15,144469,Emily Blunt was nominated for an Emmy.,non-factual,1
+15,148873,Michelle Obama is Jewish.,non-factual,1
+15,156416,Anne Frank shared a home with members of her family.,non-factual,1
+15,167142,Kanye West refused to work for Jay Z.,factual,1
+15,168714,Jane Lynch is an Algerian.,non-factual,1
+15,186078,Alec Baldwin played only Alex in The Hunt for Red October.,factual,1
+15,192243,Steve Harvey has written self help books.,non-factual,1
+15,194648,Avatar: The Last Airbender aired for three years in the mid-2000's.,factual,1
+15,214335,Chandni stars a Peruvian film actor.,non-factual,1
+15,224432,Will Ferrell received criticism.,non-factual,1
+15,226008,Tetris has sold more than Pac-Man.,non-factual,1
+15,12439,1992 was the year Neymar was born.,factual,0
+15,26736,Fergie did not begin touring in 2009.,factual,0
+15,68557,Shraddha Kapoor declined to ever play a singer.,factual,0
+15,83635,David Hasselhoff did not star in Chicago.,factual,0
+15,84697,"Game of Thrones had its third season begin on March 31, 2013.",factual,0
+15,163902,Tidewater region is on the eastern coast of the United States.,factual,0
+15,170159,Maid in Manhattan was only directed by Christopher Nolan.,factual,0
+15,205500,Wyatt Earp was employed at venues such as wineries.,non-factual,0
+15,213266,The Nile fails to drain through Eritrea.,factual,0
+15,214699,Tupac Shakur was a philanthropist and vegan.,non-factual,0
+15,216457,Lymelife is a 2008 film.,factual,0
+15,229413,John Woo attended comic creation school.,non-factual,0

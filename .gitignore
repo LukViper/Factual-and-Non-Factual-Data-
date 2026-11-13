@@ -1,0 +1,59 @@
+# --- Python / env ---
+.venv/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# --- Secrets / local config ---
+.env
+.env.*
+!.env.example
+*.pem
+credentials*.json
+secrets.*
+
+# --- Heavy runtime artifacts (do not upload) ---
+cache/
+cache_full/
+**/cache/
+logs/
+**/logs/
+catboost_info/
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Large local data blobs (results CSVs/Excel + READMEs stay tracked) ---
+fever_vectors*.xlsx
+*.mmap
+
+# Keep CSVs + READMEs; ignore only transient outputs if needed
+outputs/*.log
+results_cross_fold/
+configs/

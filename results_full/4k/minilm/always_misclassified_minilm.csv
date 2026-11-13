@@ -1,0 +1,33 @@
+n_classifiers,id,claim,true_label,predicted_label,n_classifiers_wrong
+17,28450,Nina Simone received an honorary academic degree.,factual,non-factual,17
+17,64934,Kurt Russell's first movie in the Fast and Furious franchise wasn't released in 2015.,non-factual,factual,17
+17,86656,AVM Productions was involved in the creation of Gemini.,factual,non-factual,17
+17,32058,Ramona Marquez was married in 2001.,factual,non-factual,17
+17,71026,Iain Glen is a comedy television actor.,non-factual,factual,17
+17,30480,Bette Davis had a ubiquitous cigarette in the thirties.,factual,non-factual,17
+17,216042,The 19th G7 summit included the European Commission.,factual,non-factual,17
+17,11548,Jennifer Aniston's mother is deceased.,factual,non-factual,17
+17,9566,Zootopia is a cafe.,factual,non-factual,17
+17,110888,The Wolf of Wall Street got zero nominations at the Academy Awards in 2014.,non-factual,factual,17
+17,56097,Ready Player One did not win an award from a nonprofit organization.,non-factual,factual,17
+17,108511,Jennifer Aniston's mother is Martha Stewart.,factual,non-factual,17
+17,30536,Alpha House is inspired by Representative George Miller.,factual,non-factual,17
+17,41591,Grace Jones affected a cross-dressing movement.,factual,non-factual,17
+17,63773,Ecuador's population is 15.216 million.,non-factual,factual,17
+17,15623,Kamala Harris is a former district attorney.,factual,non-factual,17
+17,213032,Marlon Brando was in a film by someone who died in 1993 and he was American.,non-factual,factual,17
+17,153968,Bela Lugosi did not portray Count Dracula.,non-factual,factual,17
+17,77299,Animal Farm is part of the Great Books of the Western World selection.,factual,non-factual,17
+17,114539,Marie Curie was a scientist.,factual,non-factual,17
+17,65647,Paul Bettany is married.,factual,non-factual,17
+17,118166,The lion has no scientific name.,non-factual,factual,17
+17,140845,Game of Thrones is a kitchen sink drama television series.,non-factual,factual,17
+17,47833,Christianity spread to India.,factual,non-factual,17
+17,14741,Season 15 of Family Guy was created in the United States.,non-factual,factual,17
+17,184714,Randall Flagg has been portrayed by Jamey Sheridan.,non-factual,factual,17
+17,147849,Muammar Gaddafi was not praised for supporting Arab and African unity.,non-factual,factual,17
+17,210931,Gabrielle Union is in Deliver Us from Eva.,factual,non-factual,17
+17,198791,The final episode of The Blacklist was directed by Joe Carnahan.,non-factual,factual,17
+17,76683,Inspectah Deck is Texan.,non-factual,factual,17
+17,134124,Ulysses S. Grant was a Taurus.,factual,non-factual,17
+17,177592,Fences stars Mykelti Williamson.,factual,non-factual,17

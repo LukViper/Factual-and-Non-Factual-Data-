@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+scipy
+openpyxl
+optuna
+xgboost
+lightgbm
+catboost
+torch
+transformers
+sentence-transformers

@@ -1,0 +1,31 @@
+n_classifiers,id,claim,true_label,predicted_label_majority,n_classifiers_wrong
+17,53111,Edgar Allan Poe was a movie critic.,non-factual,factual,17
+17,67711,The New York Giants are veterans.,non-factual,factual,17
+17,79547,John Heard acted in a movie directed by the director of Transformers.,non-factual,factual,17
+17,135527,Malaysia is multireligious.,non-factual,factual,17
+17,28903,Chinese people can be associated with northern China through ancestry.,factual,non-factual,17
+17,107965,"Pranab Mukherjee was born on Monday December 11th, 1935.",non-factual,factual,17
+17,109812,Atomic Blonde is based on a 2012 movie.,non-factual,factual,17
+17,152024,Ryan Phillippe died in the film Cruel Intentions.,non-factual,factual,17
+17,132245,Janet Varney is a director.,non-factual,factual,17
+17,148351,The Crazies is scary.,non-factual,factual,17
+17,192411,Francois de Belleforest translated the works of Matteo Bandello into French.,factual,non-factual,17
+17,110888,The Wolf of Wall Street got zero nominations at the Academy Awards in 2014.,non-factual,factual,17
+17,56097,Ready Player One did not win an award from a nonprofit organization.,non-factual,factual,17
+17,23326,Helen Keller was inducted into the WNBA Hall of Fame in 1971.,non-factual,factual,17
+17,98263,Kid Rock gained commercial success in the pop rock genre.,non-factual,factual,17
+17,186771,Connie Britton received two award nominations for her television acting work.,factual,non-factual,17
+17,78163,NASA is supporting space station operations.,factual,non-factual,17
+17,140105,In 1982 Moses Malone won his second MVP.,factual,non-factual,17
+17,19477,The Divergent Series: Allegiant is not science fiction.,non-factual,factual,17
+17,15623,Kamala Harris is a former district attorney.,factual,non-factual,17
+17,95831,Google was flooded in the 90's.,non-factual,factual,17
+17,153968,Bela Lugosi did not portray Count Dracula.,non-factual,factual,17
+17,68592,Buzz Aldrin is a former NASA technician.,factual,non-factual,17
+17,41004,Delhi is landlocked.,non-factual,factual,17
+17,215319,The Host was written for Andrew Niccol.,non-factual,factual,17
+17,189607,Try is the second song from Pink's album.,non-factual,factual,17
+17,108605,Lung cancer results in 1.6 million births.,non-factual,factual,17
+17,86451,"San Jose, California is California's 3rd most populous city.",factual,non-factual,17
+17,169103,"Nick Kroll has a supporting role in the movie I Love You, Man alongside Paul Rudd.",non-factual,factual,17
+17,149755,Shawn Mendes is an actor.,non-factual,factual,17

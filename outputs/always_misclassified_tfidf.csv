@@ -1,0 +1,228 @@
+n_classifiers,id,claim,true_label,n_classifiers_wrong
+17,124081,Heartbreak Ridge was released in IMAX.,non-factual,17
+17,125771,Courtney Love has not acted in an American crime drama television series.,non-factual,17
+17,52009,Reese Witherspoon owns a company.,factual,16
+17,90163,"In 2007, Slovenia became the first formerly communist country to join the Eurozone which happened three years after entering NATO and the European Union.",factual,16
+17,128699,"Susan Atkins was born, a man, on May 7, 1948.",non-factual,16
+17,185101,Davis Entertainment has three divisions.,factual,16
+17,185605,Cinderella stars Helena Bonham Carter.,factual,16
+17,35803,The Italian language is celebrated in Montenegro.,factual,15
+17,54255,The show Blue Bloods features regular appearances by Donnie Wahlberg.,factual,15
+17,92784,Canada shares a currency with the United States.,non-factual,15
+17,108640,Lyme disease is a diagnosed condition in the United States,non-factual,15
+17,114471,Beautiful (Christina Aguilera song) was recorded in order to be the second song in the album Stripped.,non-factual,15
+17,135153,A film that was directed by Joel Schumacher featured Demi Moore.,non-factual,15
+17,139601,Fred Trump was the nephew of a United States Court of Appeals Judge.,non-factual,15
+17,155227,Russia contains one of the largest dogs in the world.,non-factual,15
+17,193475,Return to Paradise was directed by Joseph Ruben in 1997.,non-factual,15
+17,199453,Octavia Spencer worked in the Divergent film franchise.,factual,15
+17,221592,Park Jin-young was an arbiter on K-pop Star 2.,factual,15
+17,23064,Billy Bob Thornton directed the film All the Pretty Horses.,factual,14
+17,24873,Glee: The 2D Concert Movie is a film based on the Glee 2011 tour.,non-factual,14
+17,42640,Jensen Ackles played Alec/X5-494 in the United States Government.,factual,14
+17,48397,Jon Snow is played by Kit Harington.,factual,14
+17,91757,Roman Reigns is the 2015 NHL winner.,non-factual,14
+17,94527,Little Mix released their first political prisoner in 2012.,non-factual,14
+17,103092,Manitoba borders Ontario and Saskatchewan.,factual,14
+17,120049,Gwen Stefani is an actress in 50 First Dates.,non-factual,14
+17,144545,Kanye approved of The Grey Album.,non-factual,14
+17,167573,Suits features a character named Harvey Specter.,factual,14
+17,193263,Edge of Tomorrow was released in at least 28 territories in Southeast Asia.,non-factual,14
+17,203629,Pink Floyd was inducted into the British Rock and Roll Hall of Fame.,non-factual,14
+17,227804,John Woo created the comic series Full House.,non-factual,14
+17,69914,Stephon Marbury has won three CBA championships.,factual,13
+17,75665,Naomi Scott starred in Lemonade Mouth.,factual,13
+17,97070,Bradley Cooper played Jake on an American romantic comedy television series.,non-factual,13
+17,100055,Monica Seles was a tourist in Yugoslavia and the United States of America.,non-factual,13
+17,183116,Jennifer Hudson has released studio albums.,factual,13
+17,193152,A Song of Ice and Fire was written by Peter Jackson.,factual,13
+17,16107,Star Wars: The Last Jedi is a space opera.,factual,12
+17,20241,Venice was ranked the most beautiful city in the world by Forbes.,non-factual,12
+17,23215,One Direction has won the Brit Awards.,factual,12
+17,23488,Quinoa has edible leaves.,factual,12
+17,27788,The Academy Awards are determined by people.,non-factual,12
+17,56731,Michael Caine was in The Prestige.,factual,12
+17,82364,Dr. Dre left Death Row Records in July of 1996.,non-factual,12
+17,92280,The Republican Party agrees with the ideology of American conservatism.,factual,12
+17,125614,Amerigo Vespucci died on Venus.,non-factual,12
+17,130552,Machu Picchu wasn't the capital.,non-factual,12
+17,137641,Sherrybaby was screened in Sundance.,factual,12
+17,138511,Rebecca Hall appeared in crime drama The Town.,factual,12
+17,141426,J. J. Cale died in Russia.,non-factual,12
+17,197746,Lucas starred an actress born on a plane.,non-factual,12
+17,216930,Michael Phelps holds the long course world record in 4 butterfly lengths and an individual medley.,factual,12
+17,13224,Philip V of Spain had the longest beard in modern Spanish history.,non-factual,11
+17,22145,A Tony Award was presented to Elton John.,factual,11
+17,38613,FC Barcelona has won World titles in soccer.,factual,11
+17,187274,David Harbour has performed on television.,factual,11
+17,205200,Audrey Horne was presented in Northwest Passage.,factual,11
+17,215031,Ray Milland has been nominated for awards.,non-factual,11
+17,222235,Gil Sharone was on an episode of Step by Step.,non-factual,11
+17,226669,Haim Saban is an elderly Israeli-American record producer.,factual,11
+17,228994,Kiefer Sutherland appeared in The Bay Boy (1984).,factual,11
+17,928,The English language is the most commonly spoken language in the United States.,factual,10
+17,1122,Portia de Rossi starred as Veronica Palmer in Better Off Ted.,factual,10
+17,69661,Saving Private Ryan was directed by a person born in Hawaii.,non-factual,10
+17,79681,Lana Del Rey released cheese.,non-factual,10
+17,80119,Prince won a Golden Globe Award.,factual,10
+17,80999,Wayne Rooney is part of the spelling bee team.,non-factual,10
+17,88099,Laura Prepon portrayed Donna Pinciotti.,factual,10
+17,106669,The Weeknd is a stateless person.,non-factual,10
+17,116268,Alexander Lebedev was unlisted from Forbes magazine.,non-factual,10
+17,124373,Egypt is in the northern hemisphere.,non-factual,10
+17,129785,"Nike, Inc.'s trademarks are ""Good to the last drop"" and the Swoosh logo.",factual,10
+17,145826,Gerard Butler is a method actor.,non-factual,10
+17,176748,Tony Bill directed a film written by Alan Ormsby and he is American.,factual,10
+17,205216,Audrey Horne was presented in a series that debuted on Sunday.,non-factual,10
+17,3849,Artemis was depicted as a huntress.,factual,9
+17,39307,World War II took place over years.,factual,9
+17,75101,South America was colonized by various Asian powers.,non-factual,9
+17,79924,One of the best-selling music artists in the United States was R. Kelly.,factual,9
+17,82166,Jeff Bezos is a rollerblader.,non-factual,9
+17,84889,Melissa McCarthy has starred in an action film.,factual,9
+17,105133,Bal Gangadhar Tilak practiced law.,factual,9
+17,186280,Cochrane was previously known as the Cochrane Cooperative.,non-factual,9
+17,205244,"Audrey Horne was introduced in a series that premiered on Sunday, April 8, 1990 and she was American.",non-factual,9
+17,213809,Sarah Paulson appeared in a film.,factual,9
+17,218269,Dwayne Johnson is a stage actor.,non-factual,9
+17,6604,Dileep (actor) began his film career in 1991.,factual,8
+17,9271,Lana Del Rey is a music producer.,non-factual,8
+17,66690,The Xbox One is the predecessor of the Xbox 360.,factual,8
+17,83222,Tyrese Gibson is American and Asian.,non-factual,8
+17,90564,Episodes of Sense8 were directed in front of a live studio audience.,non-factual,8
+17,128747,Tanzania has a Gaelic-speaking population.,non-factual,8
+17,186698,Calvin Harris's birth year was 1984.,factual,8
+17,208351,The Nashville Songwriters Association International is an organization without the goal of distributing excess revenue to members or leaders.,non-factual,8
+17,182,The World Senior Chess Championship was established by Tom Jones.,non-factual,7
+17,70241,Adele has an album called 29.,non-factual,7
+17,86609,Louis C.K. is a chef.,non-factual,7
+17,93376,Splatoon 2 is in the Smithsonian.,non-factual,7
+17,112378,Bill Cosby has been the subject of physical assault allegations.,non-factual,7
+17,117970,Hong Kong is one of the world's most significant tourist location.,non-factual,7
+17,167630,Indian was taught the Best Foreign Language Film for the Academy Awards.,non-factual,7
+17,173005,Rear Window (1998 film) casts Robert Foster.,factual,7
+17,184689,Fast Food Nation was made in the 21st century.,factual,7
+17,197738,Lucas was created in the 20th century.,factual,7
+17,1571,The Philippines is an emerging market.,factual,6
+17,11150,Emily Blunt is a scuba diver.,non-factual,6
+17,35136,Beauty Shop features Gina as a leftist radical.,non-factual,6
+17,54611,Juana la virgen is a telenovela produced by GOL TV.,factual,6
+17,64840,Bangladesh is on a continent.,factual,6
+17,67789,Charles I of England quarrelled with the Canadian Geese.,non-factual,6
+17,96798,Faith Evans became the widow of Christopher George Latore Wallace when he died in 1999.,non-factual,6
+17,110098,Julie Christie was nominated for an Oscar for Best Actress.,non-factual,6
+17,156716,The dog of Prussia existed from 1701 to 1918.,non-factual,6
+17,172641,"Floyd Mayweather Jr. was born in New York in February 24, 1977.",non-factual,6
+17,9576,James A. Woods attended the premiere of a 2003 independent comedy film.,non-factual,5
+17,10888,A fantasy film usually involves tales.,non-factual,5
+17,29333,Star Trek is the highest grossing J. J. Abrams film.,non-factual,5
+17,29585,Planet of the Apes' filming took place between May and August 1967.,factual,5
+17,60938,Bela Lugosi was Hungarian-American.,factual,5
+17,87191,Carrie Fisher was Canadian.,non-factual,5
+17,89262,Top of the Lake's first season is on HBO.,non-factual,5
+17,92994,Marie Curie attended an underground university.,non-factual,5
+17,127404,Transformers: Dark of the Moon is a motion picture.,factual,5
+17,131652,Steve McQueen was in a legal dispute with his daughter.,non-factual,5
+17,139754,Tennis is played with a yellow ball.,non-factual,5
+17,141083,Natalie Wood acted.,factual,5
+17,153633,Foo Fighters formed after 1980.,factual,5
+17,187825,"Brentwood, Los Angeles is the home of the first McDonalds.",non-factual,5
+17,211316,Halle Berry has performed a song written by Gabriel Aubry.,non-factual,5
+17,728,RuPaul appears on Good Work.,factual,4
+17,10804,Eminem was a member of Backstreet Boys.,non-factual,4
+17,22302,Arsenic and Old Lace stars James Stewart.,non-factual,4
+17,35036,Jennifer Hudson is a deadhead.,non-factual,4
+17,37311,The Crazies was canned in 2010.,non-factual,4
+17,55885,R. Madhavan owned the highest grossing Indian company upon his retirement.,non-factual,4
+17,58856,A Game of Thrones is a restaurant in America.,factual,4
+17,69191,American wrestler John Cena is a Money in the Bank ladder match winner for 2012.,factual,4
+17,76019,Neil Young plays the role of director and screenwriter.,factual,4
+17,106960,Justin Timberlake voiced the lead character in a film.,factual,4
+17,108810,Weightlifting Fairy Kim Bok-joo has a Japanese woman in the title role.,factual,4
+17,117423,Al Gore is from Idaho.,non-factual,4
+17,123196,Scarlett Johansson had her first film role in the film North.,factual,4
+17,128378,The Eagles had no lead guitarist.,non-factual,4
+17,129048,Buddhism has over 500 million followers as of 2016.,non-factual,4
+17,134175,Drew Barrymore starred in a film written by Steven Spielberg.,non-factual,4
+17,138224,The United States had a limited release of Room.,factual,4
+17,153195,Nikola Tesla worked in the new solar power industry.,non-factual,4
+17,168428,Julius Caesar was made by The Weinstein Company.,non-factual,4
+17,174684,Jodie Foster played Mary Lianne.,non-factual,4
+17,175768,The Muse stars a fish.,non-factual,4
+17,204815,Chris Noth was nominated for Best Supporting Actor for The Good Wife in Paris.,non-factual,4
+17,214883,Music is included in the History of art.,non-factual,4
+17,215799,Coronary artery disease can be prevented by physically exercising regularly for at least 30 minutes a day.,non-factual,4
+17,216037,Iris Murdoch had exclusively German heritage.,non-factual,4
+17,5799,Paul Newman won an all expenses paid vacation.,non-factual,3
+17,23905,Bran Stark is a fictional male character.,factual,3
+17,35485,Chris Carter created MASH.,non-factual,3
+17,46349,Demi Lovato is an advocate for women's right to equal pay.,non-factual,3
+17,79891,Carole King is a guitarist and singer.,non-factual,3
+17,90346,Eddie Vedder released a soundtrack for Star Wars.,non-factual,3
+17,117866,Ruth Negga wrote Capital Letters.,non-factual,3
+17,142526,Sonny with a Chance made 6.3 million dollars in sales.,non-factual,3
+17,143767,Bal Gangadhar Tilak was only a cook.,factual,3
+17,154695,Selena Gomez starred in Inside Out.,non-factual,3
+17,161639,Streptococcus belongs to a phylum which has consciousness.,non-factual,3
+17,205898,Song Sung Blue was only recorded by Neil Young.,factual,3
+17,207239,Miley Cyrus starred in Shrek.,non-factual,3
+17,215550,50 First Dates was written by George Bluth Sr.,non-factual,3
+17,222976,House of 1000 Corpses had a theatrical release in 2004.,non-factual,3
+17,229256,Cara Delevingne was involved with a thriller film directed by Mathew Cullen and written by Roberta Hanley.,non-factual,3
+17,3871,Kris Jenner has four houses with Robert Kardashian.,non-factual,2
+17,35471,The Italian language is spoken by 100 people in Montenegro.,non-factual,2
+17,44058,Taiwan is the 22nd-largest economy on the planet.,factual,2
+17,56821,Macbeth is a comedy.,factual,2
+17,60866,Detroit was in New Guinea.,non-factual,2
+17,61777,The Divergent Series is based on books.,factual,2
+17,90371,The National Council for Peace and Order controls currency.,non-factual,2
+17,102609,Adam DeVine portrayed Andy Bailey on a critically acclaimed sitcom for 4 years.,non-factual,2
+17,113784,Tardigrades can be found in a mountain range in Australia.,non-factual,2
+17,143440,Linda McCartney was a director.,non-factual,2
+17,144136,Evan Rachel Wood began acting in television series in the 1990s.,factual,2
+17,152146,Injustice 2's director works for Disney.,non-factual,2
+17,162290,L.A. Law ran for eight people.,non-factual,2
+17,172547,Game of Thrones has received zero Primetime Emmy Awards.,factual,2
+17,203635,Pink Floyd was inducted into the American Rock and Roll Hall of Fame in 1998.,factual,2
+17,205502,Wyatt Earp was a country policeman.,non-factual,2
+17,206598,Titanium was written in part by Sia.,non-factual,2
+17,208236,Despicable Me 3 stars an American actress.,factual,2
+17,226181,Gift of the Night Fury stars the voice of a Canadian comedian.,non-factual,2
+17,14858,Seth MacFarlane provided funding for Cosmos: A Spacetime Odyssey.,non-factual,1
+17,28945,San Bernardino county is in Southern California.,factual,1
+17,43366,"J. J. Cale died on July 26, 2013.",factual,1
+17,44461,Jon Pertwee married Max Wall.,non-factual,1
+17,48113,Friday the 13th is not a film franchise with multiple films.,factual,1
+17,50401,Roger Penrose has yet to receive a prize for physics.,factual,1
+17,51076,The Great Gatsby explores themes of realism.,non-factual,1
+17,58490,Diego Luna is not Mexican.,factual,1
+17,59645,Imagine Dragons won a Tony Award.,non-factual,1
+17,60920,There was a president named Abraham Lincoln.,factual,1
+17,67026,C. S. Forester was a person who wrote novels.,factual,1
+17,78529,David Carradine has worked with J. J. Abrams.,non-factual,1
+17,83278,Gold is a very reddish yellow color.,non-factual,1
+17,84440,Ron Perlman is incapable of voice acting.,factual,1
+17,93413,Malala Yousafzai is bilingual.,non-factual,1
+17,111978,Paul McCartney is only a 2-time Grammy Award winner.,factual,1
+17,115416,Ketogenic diet contains nutrients.,non-factual,1
+17,132275,Ratatouille was directed by martians.,factual,1
+17,139158,David Bowie has a song called Low.,non-factual,1
+17,141646,Split (2016 American film) stars an American actress.,factual,1
+17,144953,Lee Child writes about teaching.,non-factual,1
+17,145775,Elton John was an inductee into the Rock and Roll Hall of Fame.,factual,1
+17,149118,Adele did not release an album called 21.,factual,1
+17,155614,Teen Wolf is a recorded work.,factual,1
+17,158794,Marilyn Burns was an actress.,factual,1
+17,161695,Streptococcus has a spherical shape and it is studied in the field of biology.,non-factual,1
+17,174559,Bill Black's middle name is Jack.,factual,1
+17,177434,Kmart is a name of a store.,factual,1
+17,201203,Joan Cusack was in a school.,non-factual,1
+17,208741,Tim Rice wrote a 1970 rock opera with the French.,non-factual,1
+17,210498,Slovenia is bordered by Italy to the west and Austria to the north.,factual,1
+17,15008,"Rafael Nadal was born on June 3rd, 1986.",factual,0
+17,67891,John Cusack worked with NATO.,non-factual,0
+17,69802,The Bridges of Madison County (film) is a film.,factual,0
+17,88387,Boston Legal features Boston landmarks.,non-factual,0
+17,118765,Jane Lynch has lost a Satellite Award.,non-factual,0
+17,127262,Melanie Griffith was nominated for an Academy Award for Best Actress.,factual,0
+17,138315,Theodore Roosevelt founded a progressive club.,non-factual,0

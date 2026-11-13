@@ -1,0 +1,25 @@
+id,claim,verifiable,true_label,n_classifiers
+122135,One Direction is a group of guys that performs music together.,non-factual,non-factual,17
+39255,Lee Child writes thriller novels.,factual,factual,17
+64934,Kurt Russell's first movie in the Fast and Furious franchise wasn't released in 2015.,non-factual,non-factual,17
+10478,David Schwimmer starred in a television movie in 1989.,factual,factual,17
+222808,There are coal reserves in Kolyma.,factual,factual,17
+22548,Rumi was a soldier.,non-factual,non-factual,17
+188809,The Nashville Songwriters Association International provides funding for songwriting.,non-factual,non-factual,17
+36479,Stephen Hawking has a type of ALS.,factual,factual,17
+56246,The Red Army invasion of Georgia aimed to restore the Bolshevik regime.,factual,factual,17
+201499,Greenwich is a neighborhood.,non-factual,non-factual,17
+71547,Stephanie Daley lost the Waldo Salt Screenwriting Award.,factual,factual,17
+59444,Shania Twain is a Canadian songwriter that plays country music.,factual,factual,17
+129246,Roald Dahl's country of origin is in the United Kingdom.,factual,factual,17
+69523,Apocalypse Now is a silent film.,non-factual,non-factual,17
+49572,Paul Pierce played basketball for the Boston Celtics.,factual,factual,17
+185315,Will Turner's father is in service to Davy Jones.,factual,factual,17
+32227,Abu Talib ibn Abd al-Muttalib was the leader of an orchestra in Mecca.,factual,factual,17
+172926,Bane was created by Dark Horse Comics.,non-factual,non-factual,17
+185268,Batman: The Killing Joke features Batman as the protagonist and the Joker as the villain.,non-factual,non-factual,17
+118166,The lion has no scientific name.,non-factual,non-factual,17
+67995,The Ozarks are in the central and southern United States.,non-factual,non-factual,17
+17216,Malcolm Young co-founded AC/DC in 1993.,factual,factual,17
+52612,"In the 90s, Snoop Dogg was called Snoop Doggy Dogg.",non-factual,non-factual,17
+2508,David Carradine was in Kung Fu.,factual,factual,17

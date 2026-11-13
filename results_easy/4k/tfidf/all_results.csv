@@ -1,0 +1,18 @@
+Classifier Name,Tuning,Best Hyperparameters,Training Accuracy,Test Accuracy,Train-Test Gap,Precision (Macro),Recall (Macro),F1-Score (Macro),ROC-AUC,Stratified K-Fold Mean,Stratified K-Fold Std,Overfitting Risk,Fit Status,Time (sec),Confusion Matrix,Balanced Size,Embedder,Feature Name
+Logistic Regression,Default,default,0.7031,0.5587,0.1444,0.559,0.5588,0.5582,0.5881,0.5466,0.0071,MODERATE,GOOD FIT (moderate gap),1.49,"[[237, 163], [190, 210]]",4k,tfidf,TF-IDF + SVD-500
+Perceptron,Default,default,0.6106,0.5325,0.0781,0.5325,0.5325,0.5325,0.5315,0.5363,0.0094,LOW,GOOD FIT,0.21,"[[209, 191], [183, 217]]",4k,tfidf,TF-IDF + SVD-500
+LDA,Default,default,0.6947,0.5575,0.1372,0.5577,0.5575,0.557,0.5898,0.5472,0.0144,MODERATE,GOOD FIT (moderate gap),1.32,"[[236, 164], [190, 210]]",4k,tfidf,TF-IDF + SVD-500
+KNN,Default,default,0.715,0.5125,0.2025,0.5162,0.5125,0.4827,0.5017,0.5244,0.0185,HIGH,OVERFITTING,0.31,"[[301, 99], [291, 109]]",4k,tfidf,TF-IDF + SVD-500
+Decision Tree,Default,default,0.9988,0.5062,0.4925,0.5063,0.5062,0.5062,0.5063,0.5325,0.0212,HIGH,OVERFITTING,6.14,"[[208, 192], [203, 197]]",4k,tfidf,TF-IDF + SVD-500
+Extra Trees,Default,default,0.9988,0.5375,0.4613,0.5399,0.5375,0.5305,0.5707,0.5363,0.013,HIGH,OVERFITTING,7.54,"[[264, 136], [234, 166]]",4k,tfidf,TF-IDF + SVD-500
+Random Forest,Default,default,0.9988,0.5613,0.4375,0.5651,0.5613,0.5547,0.5808,0.5447,0.0167,HIGH,OVERFITTING,25.35,"[[273, 127], [224, 176]]",4k,tfidf,TF-IDF + SVD-500
+AdaBoost,Default,default,0.6088,0.5312,0.0775,0.5338,0.5312,0.5224,0.5486,0.5363,0.0134,LOW,GOOD FIT,31.42,"[[267, 133], [242, 158]]",4k,tfidf,TF-IDF + SVD-500
+Gradient Boosting,Default,default,0.8941,0.565,0.3291,0.5679,0.565,0.5604,0.5751,0.5366,0.0144,HIGH,OVERFITTING,133.54,"[[267, 133], [215, 185]]",4k,tfidf,TF-IDF + SVD-500
+SVM,Default,default,0.7013,0.5613,0.14,0.5614,0.5613,0.5609,0.5879,0.5472,0.0088,MODERATE,GOOD FIT (moderate gap),0.84,"[[235, 165], [186, 214]]",4k,tfidf,TF-IDF + SVD-500
+Naive Bayes,Default,default,0.5878,0.5125,0.0753,0.5209,0.5125,0.4578,0.552,0.5369,0.0228,LOW,GOOD FIT,0.11,"[[332, 68], [322, 78]]",4k,tfidf,TF-IDF + SVD-500
+Neural Network (MLP),Default,default,0.8166,0.5188,0.2978,0.5189,0.5188,0.518,0.556,0.5425,0.0213,HIGH,OVERFITTING,3.62,"[[223, 177], [208, 192]]",4k,tfidf,TF-IDF + SVD-500
+Voting,Default,default,0.7081,0.5513,0.1569,0.5516,0.5513,0.5505,,0.5453,0.0077,MODERATE,GOOD FIT (moderate gap),8.74,"[[237, 163], [196, 204]]",4k,tfidf,TF-IDF + SVD-500
+Stacking,Default,default,0.9572,0.5613,0.3959,0.5617,0.5613,0.5604,0.5904,0.5453,0.0069,HIGH,OVERFITTING,49.95,"[[242, 158], [193, 207]]",4k,tfidf,TF-IDF + SVD-500
+XGBoost,Default,default,0.9988,0.5425,0.4563,0.543,0.5425,0.5411,0.5743,0.5347,0.0114,HIGH,OVERFITTING,41.32,"[[239, 161], [205, 195]]",4k,tfidf,TF-IDF + SVD-500
+LightGBM,Default,default,0.9988,0.5337,0.465,0.5344,0.5337,0.5317,0.576,0.5525,0.0082,HIGH,OVERFITTING,29.21,"[[240, 160], [213, 187]]",4k,tfidf,TF-IDF + SVD-500
+CatBoost,Default,default,0.9897,0.5413,0.4484,0.543,0.5413,0.5365,0.5762,0.5459,0.0164,HIGH,OVERFITTING,118.28,"[[257, 143], [224, 176]]",4k,tfidf,TF-IDF + SVD-500
