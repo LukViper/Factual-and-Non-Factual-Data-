@@ -2,7 +2,9 @@
 
 **Faculty demo script:** [`cross_fold_easy.py`](cross_fold_easy.py)  
 **Full experiment package:** [`cross_fold_stacking/`](cross_fold_stacking/)  
-**Results Excel:** [`results_cross_fold/MASTER_cross_fold_stacking.xlsx`](results_cross_fold/MASTER_cross_fold_stacking.xlsx)
+**Cross-fold results:** [`results_cross_fold/MASTER_cross_fold_stacking.xlsx`](results_cross_fold/MASTER_cross_fold_stacking.xlsx)  
+**Normal stacking results:** [`results_easy/MASTER_all_sizes_embedders.xlsx`](results_easy/MASTER_all_sizes_embedders.xlsx)  
+**Comparison tables:** [§7 Results & comparison](#7-results--comparison-with-normal-stacking)
 
 ---
 
@@ -250,7 +252,99 @@ For each experiment we report:
 
 ---
 
-## 7. How to run (faculty demo)
+## 7. Results & comparison with normal stacking
+
+Sources:
+
+| Pipeline | Excel | What “Stacking” means |
+|---|---|---|
+| **Cross-fold exchange** | [`results_cross_fold/MASTER_cross_fold_stacking.xlsx`](results_cross_fold/MASTER_cross_fold_stacking.xlsx) | 1 Base (LogReg) → Meta (LogReg) on OOF scores; F1–F5 exchange; metric = **holdout** accuracy |
+| **Normal stacking** (`fever_easy`) | [`results_easy/MASTER_all_sizes_embedders.xlsx`](results_easy/MASTER_all_sizes_embedders.xlsx) | sklearn `StackingClassifier`: bases **LR + LDA + LinearSVC + ExtraTrees** → meta **LR**; metric = **80/20 test** accuracy (Default mode) |
+
+These are related but not identical: normal stacking is a **4-base ensemble**; cross-fold uses a **single base** plus the exchange allocation. BERT/T5 slots used the same DistilBERT mean-pool fallback in both pipelines (identical scores within each pipeline).
+
+### 7.1 Cross-fold — holdout stacking accuracy (E0–E3)
+
+| Size | Exp | Exchange | BERT | MiniLM | RoBERTa | T5 | TF-IDF |
+|---|---|---:|---:|---:|---:|---:|---:|
+| **4k** | E0 | 0% | 0.5975 | **0.5850** | **0.5825** | 0.5975 | 0.5488 |
+| 4k | E1 | 10% | **0.6075** | 0.5788 | 0.5738 | **0.6075** | **0.5575** |
+| 4k | E2 | 25% | 0.6025 | 0.5812 | 0.5738 | 0.6025 | 0.5462 |
+| 4k | E3 | 40% | 0.5913 | 0.5800 | 0.5588 | 0.5913 | 0.5500 |
+| **67k** | E0 | 0% | **0.6454** | 0.6104 | 0.6314 | **0.6454** | 0.5823 |
+| 67k | E1 | 10% | 0.6439 | **0.6114** | 0.6325 | 0.6439 | 0.5817 |
+| 67k | E2 | 25% | 0.6450 | 0.6088 | **0.6355** | 0.6450 | 0.5843 |
+| 67k | E3 | 40% | 0.6418 | 0.6101 | 0.6321 | 0.6418 | **0.5860** |
+
+Bold = best exchange setting for that size × embedder.
+
+### 7.2 Cross-fold — holdout F1 (same runs)
+
+| Size | Exp | BERT | MiniLM | RoBERTa | T5 | TF-IDF |
+|---|---|---:|---:|---:|---:|---:|
+| 4k | E0 | 0.5955 | 0.5850 | 0.5783 | 0.5955 | 0.5318 |
+| 4k | E1 | 0.6045 | 0.5750 | 0.5656 | 0.6045 | 0.5379 |
+| 4k | E2 | 0.5975 | 0.5849 | 0.5689 | 0.5975 | 0.5179 |
+| 4k | E3 | 0.5845 | 0.5800 | 0.5526 | 0.5845 | 0.5187 |
+| 67k | E0 | 0.6479 | 0.6155 | 0.6352 | 0.6479 | 0.6000 |
+| 67k | E1 | 0.6476 | 0.6164 | 0.6365 | 0.6476 | 0.5998 |
+| 67k | E2 | 0.6486 | 0.6141 | 0.6389 | 0.6486 | 0.6020 |
+| 67k | E3 | 0.6459 | 0.6158 | 0.6357 | 0.6459 | 0.6019 |
+
+### 7.3 Normal stacking (`fever_easy`) — test accuracy
+
+| Size | Embedder | Test Acc | F1 (macro) | ROC-AUC | Train Acc | Train–Test Gap |
+|---|---|---:|---:|---:|---:|---:|
+| 4k | BERT | 0.6238 | 0.6237 | 0.6846 | 1.0000 | 0.3762 |
+| 4k | MiniLM | 0.5863 | 0.5862 | 0.6301 | 1.0000 | 0.4137 |
+| 4k | RoBERTa | 0.6012 | 0.6012 | 0.6538 | 1.0000 | 0.3988 |
+| 4k | T5 | 0.6238 | 0.6237 | 0.6846 | 1.0000 | 0.3762 |
+| 4k | TF-IDF | 0.5613 | 0.5604 | 0.5904 | 0.9572 | 0.3959 |
+| 67k | BERT | 0.6541 | 0.6540 | 0.7122 | 0.9990 | 0.3450 |
+| 67k | MiniLM | 0.6269 | 0.6268 | 0.6761 | 0.9997 | 0.3728 |
+| 67k | RoBERTa | 0.6438 | 0.6436 | 0.7017 | 0.9998 | 0.3560 |
+| 67k | T5 | 0.6541 | 0.6540 | 0.7122 | 0.9990 | 0.3450 |
+| 67k | TF-IDF | 0.5937 | 0.5933 | 0.6399 | 0.9922 | 0.3985 |
+
+### 7.4 Head-to-head (best cross-fold holdout vs normal stacking test)
+
+Δ = cross-fold best accuracy − normal stacking test accuracy.
+
+| Size | Embedder | Cross-fold best | (Exp) | Normal stacking | Δ Acc |
+|---|---|---:|---|---:|---:|
+| 4k | BERT | 0.6075 | E1 | 0.6238 | −0.0163 |
+| 4k | MiniLM | 0.5850 | E0 | 0.5863 | −0.0013 |
+| 4k | RoBERTa | 0.5825 | E0 | 0.6012 | −0.0187 |
+| 4k | T5 | 0.6075 | E1 | 0.6238 | −0.0163 |
+| 4k | TF-IDF | 0.5575 | E1 | 0.5613 | −0.0038 |
+| 67k | BERT | 0.6454 | E0 | 0.6541 | −0.0087 |
+| 67k | MiniLM | 0.6114 | E1 | 0.6269 | −0.0155 |
+| 67k | RoBERTa | 0.6355 | E2 | 0.6438 | −0.0083 |
+| 67k | T5 | 0.6454 | E0 | 0.6541 | −0.0087 |
+| 67k | TF-IDF | 0.5860 | E3 | 0.5937 | −0.0077 |
+
+```text
+ Accuracy (higher is better)
+
+ 4k   Normal stacking  ████████████████████  ~0.56–0.62
+ 4k   Cross-fold best  ███████████████████   ~0.56–0.61   (slightly lower)
+
+ 67k  Normal stacking  █████████████████████ ~0.59–0.65
+ 67k  Cross-fold best  ████████████████████  ~0.59–0.65   (slightly lower)
+```
+
+### 7.5 What the comparison shows
+
+1. **Normal multi-base stacking is a bit higher on raw accuracy** on every size × embedder (about **0.1–1.9 points**). That is expected: it combines four diverse base classifiers, while cross-fold uses one LogReg base.
+2. **Exchange helps sometimes, not always.** On 4k, E1 (10%) is best for BERT/T5/TF-IDF; on 67k, RoBERTa peaks at E2 (25%) and TF-IDF at E3 (40%); several settings prefer E0 (no exchange).
+3. **Normal stacking overfits the train set hard** (train acc ≈ 1.0, gap ≈ 0.35–0.41). Cross-fold reports a clean **untouched holdout** and enforces OOF meta features — better for studying the exchange idea than for max score chasing.
+4. **Larger data helps both:** 67k beats 4k for every embedder in both pipelines; BERT/T5 (DistilBERT mean) remain strongest.
+
+**Faculty one-liner:** *Cross-fold exchange stacking is competitive with normal stacking but slightly lower accuracy; its value is the controlled F1↔F5 data-exchange design and leakage-safe OOF stacking, not beating a 4-base ensemble on leaderboard score.*
+
+---
+
+## 8. How to run (faculty demo)
 
 ```bash
 cd /home/luk_viper/ML
@@ -283,7 +377,7 @@ Full matrix already run (all sizes × embedders):
 
 ---
 
-## 8. Leakage rules (checklist for viva)
+## 9. Leakage rules (checklist for viva)
 
 1. Holdout 20% never enters training, exchange, or tuning.  
 2. No sample is both train **and** test for the **same** model.  
@@ -293,6 +387,6 @@ Full matrix already run (all sizes × embedders):
 
 ---
 
-## 9. Note on embedders in this environment
+## 10. Note on embedders in this environment
 
 If HuggingFace download is blocked, **BERT** / **T5** slots use a local **DistilBERT mean-pool** fallback, and **RoBERTa** uses **DistilBERT CLS-pool** (same approach as `fever_easy.py`). MiniLM can reuse the project embedding cache.

@@ -1,38 +1,34 @@
 n_classifiers,id,claim,true_label,predicted_label,n_classifiers_wrong
-11,150824,One skydiver is Scott Eastwood.,factual,non-factual,11
-11,38533,Heather Graham starred in the movie The Hangover.,factual,non-factual,11
-11,109812,Atomic Blonde is based on a 2012 movie.,non-factual,factual,11
-11,219996,Clementine Chapel has a marble monument that was placed by Emperor Constantine.,factual,non-factual,11
-11,185120,Davis Entertainment's divisions develop and produce projects for satellite broadcasters.,non-factual,factual,11
-11,37213,Beauty Shop lacks an actress.,factual,non-factual,11
-11,192411,Francois de Belleforest translated the works of Matteo Bandello into French.,factual,non-factual,11
-11,169859,The film Bringing Up Baby featured Cary Grant.,factual,non-factual,11
-11,104209,Rey Mysterio won a Royal Rumble.,factual,non-factual,11
-11,167269,Demon Days has only sold originals.,non-factual,factual,11
-11,56097,Ready Player One did not win an award from a nonprofit organization.,non-factual,factual,11
-11,135524,Buckingham Palace possesses vibrantly colored scagliola.,factual,non-factual,11
-11,81724,Robert Duvall is a singer.,non-factual,factual,11
-11,174917,50 First Dates is a 2004 British film.,non-factual,factual,11
-11,52514,Paul Feig has worked with ABC television network channel.,non-factual,factual,11
-11,121855,Good Will Hunting's cast worked for Stellan Skarsgård.,non-factual,factual,11
-11,215375,A German-American fashion model starred in The Host.,factual,non-factual,11
-11,128058,Richard Ramirez committed murder.,factual,non-factual,11
-11,158666,Priyanka Chopra advocates environmental causes.,factual,non-factual,11
-11,41591,Grace Jones affected a cross-dressing movement.,factual,non-factual,11
-11,27528,John Heard declined a roll in Cat People.,factual,non-factual,11
-11,31029,Anne Frank moved when the Nazis took over Germany.,factual,non-factual,11
-11,19477,The Divergent Series: Allegiant is not science fiction.,non-factual,factual,11
-11,142915,Marie Curie taught at an underground university.,factual,non-factual,11
-11,69523,Apocalypse Now is a silent film.,non-factual,factual,11
-11,75673,Greyson Chance was born in Detroit.,non-factual,factual,11
-11,172926,Bane was created by Dark Horse Comics.,non-factual,factual,11
-11,107672,"Heartbreak Ridge was filmed on February 23rd, 1986.",non-factual,factual,11
-11,172367,The National Security Agency has at least one official responsibility.,non-factual,factual,11
-11,15623,Kamala Harris is a former district attorney.,factual,non-factual,11
-11,18092,Rey Mysterio won a WWE event.,factual,non-factual,11
-11,127984,Apocalypse Now was co-written by a dolphin.,non-factual,factual,11
-11,67995,The Ozarks are in the central and southern United States.,non-factual,factual,11
-11,184714,Randall Flagg has been portrayed by Jamey Sheridan.,non-factual,factual,11
-11,138101,Donnie Wahlberg is a playwright.,non-factual,factual,11
-11,149755,Shawn Mendes is an actor.,non-factual,factual,11
-11,56075,Amoxicillin can be insufflated.,non-factual,factual,11
+17,38533,Heather Graham starred in the movie The Hangover.,factual,non-factual,17
+17,109812,Atomic Blonde is based on a 2012 movie.,non-factual,factual,17
+17,219996,Clementine Chapel has a marble monument that was placed by Emperor Constantine.,factual,non-factual,17
+17,185120,Davis Entertainment's divisions develop and produce projects for satellite broadcasters.,non-factual,factual,17
+17,192411,Francois de Belleforest translated the works of Matteo Bandello into French.,factual,non-factual,17
+17,169859,The film Bringing Up Baby featured Cary Grant.,factual,non-factual,17
+17,104209,Rey Mysterio won a Royal Rumble.,factual,non-factual,17
+17,56097,Ready Player One did not win an award from a nonprofit organization.,non-factual,factual,17
+17,135524,Buckingham Palace possesses vibrantly colored scagliola.,factual,non-factual,17
+17,81724,Robert Duvall is a singer.,non-factual,factual,17
+17,174917,50 First Dates is a 2004 British film.,non-factual,factual,17
+17,52514,Paul Feig has worked with ABC television network channel.,non-factual,factual,17
+17,121855,Good Will Hunting's cast worked for Stellan Skarsgård.,non-factual,factual,17
+17,215375,A German-American fashion model starred in The Host.,factual,non-factual,17
+17,128058,Richard Ramirez committed murder.,factual,non-factual,17
+17,158666,Priyanka Chopra advocates environmental causes.,factual,non-factual,17
+17,41591,Grace Jones affected a cross-dressing movement.,factual,non-factual,17
+17,27528,John Heard declined a roll in Cat People.,factual,non-factual,17
+17,31029,Anne Frank moved when the Nazis took over Germany.,factual,non-factual,17
+17,19477,The Divergent Series: Allegiant is not science fiction.,non-factual,factual,17
+17,142915,Marie Curie taught at an underground university.,factual,non-factual,17
+17,69523,Apocalypse Now is a silent film.,non-factual,factual,17
+17,75673,Greyson Chance was born in Detroit.,non-factual,factual,17
+17,172926,Bane was created by Dark Horse Comics.,non-factual,factual,17
+17,107672,"Heartbreak Ridge was filmed on February 23rd, 1986.",non-factual,factual,17
+17,172367,The National Security Agency has at least one official responsibility.,non-factual,factual,17
+17,15623,Kamala Harris is a former district attorney.,factual,non-factual,17
+17,18092,Rey Mysterio won a WWE event.,factual,non-factual,17
+17,127984,Apocalypse Now was co-written by a dolphin.,non-factual,factual,17
+17,67995,The Ozarks are in the central and southern United States.,non-factual,factual,17
+17,184714,Randall Flagg has been portrayed by Jamey Sheridan.,non-factual,factual,17
+17,138101,Donnie Wahlberg is a playwright.,non-factual,factual,17
+17,149755,Shawn Mendes is an actor.,non-factual,factual,17

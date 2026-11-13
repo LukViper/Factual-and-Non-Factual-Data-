@@ -83,14 +83,17 @@ Per-run files also live under:
 
 ## Cross-fold data-exchange stacking (separate experiment)
 
-**Show faculty:** [`cross_fold_easy.py`](cross_fold_easy.py) + diagrams in [`CROSS_FOLD_STACKING_README.md`](CROSS_FOLD_STACKING_README.md)
+**Show faculty:** [`cross_fold_easy.py`](cross_fold_easy.py) + diagrams + **results vs normal stacking** in [`CROSS_FOLD_STACKING_README.md`](CROSS_FOLD_STACKING_README.md) (§7).
 
 ```bash
 python cross_fold_easy.py --size 4k --embedder tfidf --all-ratios
 python -m pytest tests/ -q
 ```
 
-Full package: [`cross_fold_stacking/`](cross_fold_stacking/). Master results: `results_cross_fold/MASTER_cross_fold_stacking.xlsx`
+| Results | Path |
+|---|---|
+| Cross-fold (all sizes × embedders) | `results_cross_fold/MASTER_cross_fold_stacking.xlsx` |
+| Normal stacking (`fever_easy`) | `results_easy/MASTER_all_sizes_embedders.xlsx` |
 
 ## Full tuning outputs (Default / Grid / Random / Bayesian Optuna)
 
