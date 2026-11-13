@@ -16,7 +16,7 @@ _Auto-generated from real experiment CSVs on 2026-11-13 08:27. Values are measur
 | Primary Excel | `results_full/FINAL_all_results.xlsx` |
 | ≥5 misclassified Excel | `results_full/FINAL_misclassified_ge5.xlsx` |
 
-## Coverage (what is finished)
+## Coverage 
 
 | Embedder | Classifiers | Tunings present | Rows | Status |
 | --- | --- | --- | --- | --- |

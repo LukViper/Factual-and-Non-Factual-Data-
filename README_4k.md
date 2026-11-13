@@ -16,7 +16,7 @@ _Auto-generated from real experiment CSVs on 2026-11-13 08:27. Values are measur
 | Primary Excel | `results_full/FINAL_all_results.xlsx` |
 | ≥5 misclassified Excel | `results_full/FINAL_misclassified_ge5.xlsx` |
 
-## Coverage (what is finished)
+## Coverage 
 
 | Embedder | Classifiers | Tunings present | Rows | Status |
 | --- | --- | --- | --- | --- |
@@ -366,7 +366,7 @@ Best here: **LDA** / **Grid Search** — Test Acc `0.6400`, F1 `0.6400`
 
 ## Embedder: `roberta`
 
-Feature set: **DistilBERT CLS-pool (RoBERTa slot; HF blocked)**  
+Feature set: **DistilBERT CLS-pool (RoBERTa slot)**  
 
 Result rows: **17** | Classifiers: **17** | Tunings: **Default**
 
@@ -419,7 +419,7 @@ Best here: **LDA** / **Default** — Test Acc `0.6175`, F1 `0.6174`
 
 ## Embedder: `t5`
 
-Feature set: **DistilBERT mean-pool (T5 slot fallback; download sentence-t5-base later)**  
+Feature set: **DistilBERT mean-pool **  
 
 Result rows: **17** | Classifiers: **17** | Tunings: **Default**
 
