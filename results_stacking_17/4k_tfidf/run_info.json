@@ -1,0 +1,9 @@
+{
+  "size": "4k",
+  "embedder": "tfidf",
+  "feature_name": "TF-IDF + SVD-500",
+  "n_dev": 3200,
+  "n_holdout": 800,
+  "X_dev_shape": "(3200, 500)",
+  "top_k_meta": 3
+}

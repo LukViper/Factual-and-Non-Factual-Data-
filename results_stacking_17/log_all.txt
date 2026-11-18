@@ -1,0 +1,510 @@
+[skip] results_stacking_17/4k_tfidf/combined_4k_tfidf.xlsx
+========================================================================
+STACKING-17  size=4k  embedder=minilm
+========================================================================
+[normal] Ranking bases on development (3200 rows)...
+  rank Logistic Regression       val_acc=0.5844
+  rank Perceptron                val_acc=0.5578
+  rank LDA                       val_acc=0.5641
+  rank KNN                       val_acc=0.5734
+  rank Decision Tree             val_acc=0.5375
+  rank Extra Trees               val_acc=0.5234
+  rank Random Forest             val_acc=0.5750
+  rank AdaBoost                  val_acc=0.5437
+  rank Gradient Boosting         val_acc=0.5547
+  rank SVM                       val_acc=0.5797
+  rank Naive Bayes               val_acc=0.5344
+  rank Neural Network (MLP)      val_acc=0.5672
+  rank XGBoost                   val_acc=0.5500
+  rank LightGBM                  val_acc=0.5484
+  rank CatBoost                  val_acc=0.5484
+[normal] Top-3 meta candidates: ['Logistic Regression', 'SVM', 'Random Forest']
+[normal] Using 15 base estimators
+[normal] Stacking with meta=Logistic Regression ...
+  meta=Logistic Regression: holdout_acc=0.5887 f1=0.5923 auc=0.629625
+[normal] Stacking with meta=SVM ...
+  meta=SVM: holdout_acc=0.5850 f1=0.5891 auc=0.6232437500000001
+[normal] Stacking with meta=Random Forest ...
+  meta=Random Forest: holdout_acc=0.5375 f1=0.5688 auc=0.5586156250000001
+[cross-fold] Ranking bases on development (3200 rows)...
+  rank Logistic Regression       val_acc=0.5844
+  rank Perceptron                val_acc=0.5578
+  rank LDA                       val_acc=0.5641
+  rank KNN                       val_acc=0.5734
+  rank Decision Tree             val_acc=0.5375
+  rank Extra Trees               val_acc=0.5234
+  rank Random Forest             val_acc=0.5750
+  rank AdaBoost                  val_acc=0.5437
+  rank Gradient Boosting         val_acc=0.5547
+  rank SVM                       val_acc=0.5797
+  rank Naive Bayes               val_acc=0.5344
+  rank Neural Network (MLP)      val_acc=0.5672
+  rank XGBoost                   val_acc=0.5500
+  rank LightGBM                  val_acc=0.5484
+  rank CatBoost                  val_acc=0.5484
+[cross-fold] Top-3 meta candidates: ['Logistic Regression', 'SVM', 'Random Forest']
+[cross-fold] E0 exchange=0.0
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=Logistic Regression: holdout_acc=0.5975 f1=0.5945
+  meta=SVM: holdout_acc=0.5825 f1=0.5793
+  meta=Random Forest: holdout_acc=0.5800 f1=0.5892
+[cross-fold] E1 exchange=0.1
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=Logistic Regression: holdout_acc=0.6062 f1=0.6067
+  meta=SVM: holdout_acc=0.6025 f1=0.6025
+  meta=Random Forest: holdout_acc=0.5563 f1=0.5707
+[cross-fold] E2 exchange=0.25
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=Logistic Regression: holdout_acc=0.6112 f1=0.6088
+  meta=SVM: holdout_acc=0.6075 f1=0.6095
+  meta=Random Forest: holdout_acc=0.5813 f1=0.5859
+[cross-fold] E3 exchange=0.4
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=Logistic Regression: holdout_acc=0.5887 f1=0.5903
+  meta=SVM: holdout_acc=0.5837 f1=0.5843
+  meta=Random Forest: holdout_acc=0.5887 f1=0.5923
+Wrote /home/luk_viper/ML/results_stacking_17/4k_minilm/combined_4k_minilm.xlsx
+========================================================================
+STACKING-17  size=4k  embedder=bert
+========================================================================
+Reused embedding cache bert_n4000_rs42.npy shape=(4000, 768)
+[normal] Ranking bases on development (3200 rows)...
+  rank Logistic Regression       val_acc=0.5781
+  rank Perceptron                val_acc=0.5750
+  rank LDA                       val_acc=0.6109
+  rank KNN                       val_acc=0.5859
+  rank Decision Tree             val_acc=0.5016
+  rank Extra Trees               val_acc=0.5969
+  rank Random Forest             val_acc=0.5953
+  rank AdaBoost                  val_acc=0.5609
+  rank Gradient Boosting         val_acc=0.5437
+  rank SVM                       val_acc=0.5687
+  rank Naive Bayes               val_acc=0.5922
+  rank Neural Network (MLP)      val_acc=0.5813
+  rank XGBoost                   val_acc=0.5656
+  rank LightGBM                  val_acc=0.5953
+  rank CatBoost                  val_acc=0.5969
+[normal] Top-3 meta candidates: ['LDA', 'Extra Trees', 'CatBoost']
+[normal] Using 15 base estimators
+[normal] Stacking with meta=LDA ...
+  meta=LDA: holdout_acc=0.5763 f1=0.5703 auc=0.61170625
+[normal] Stacking with meta=Extra Trees ...
+  meta=Extra Trees: holdout_acc=0.6175 f1=0.6117 auc=0.6528718750000001
+[normal] Stacking with meta=CatBoost ...
+  meta=CatBoost: holdout_acc=0.6138 f1=0.6123 auc=0.6571
+[cross-fold] Ranking bases on development (3200 rows)...
+  rank Logistic Regression       val_acc=0.5781
+  rank Perceptron                val_acc=0.5750
+  rank LDA                       val_acc=0.6109
+  rank KNN                       val_acc=0.5859
+  rank Decision Tree             val_acc=0.5016
+  rank Extra Trees               val_acc=0.5969
+  rank Random Forest             val_acc=0.5953
+  rank AdaBoost                  val_acc=0.5609
+  rank Gradient Boosting         val_acc=0.5437
+  rank SVM                       val_acc=0.5687
+  rank Naive Bayes               val_acc=0.5922
+  rank Neural Network (MLP)      val_acc=0.5813
+  rank XGBoost                   val_acc=0.5656
+  rank LightGBM                  val_acc=0.5953
+  rank CatBoost                  val_acc=0.5969
+[cross-fold] Top-3 meta candidates: ['LDA', 'Extra Trees', 'CatBoost']
+[cross-fold] E0 exchange=0.0
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LDA: holdout_acc=0.6338 f1=0.6258
+  meta=Extra Trees: holdout_acc=0.5988 f1=0.6090
+  meta=CatBoost: holdout_acc=0.6075 f1=0.6180
+[cross-fold] E1 exchange=0.1
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LDA: holdout_acc=0.6325 f1=0.6325
+  meta=Extra Trees: holdout_acc=0.6000 f1=0.6030
+  meta=CatBoost: holdout_acc=0.5837 f1=0.5801
+[cross-fold] E2 exchange=0.25
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LDA: holdout_acc=0.6375 f1=0.6338
+  meta=Extra Trees: holdout_acc=0.6162 f1=0.6129
+  meta=CatBoost: holdout_acc=0.6250 f1=0.6250
+[cross-fold] E3 exchange=0.4
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LDA: holdout_acc=0.6225 f1=0.6225
+  meta=Extra Trees: holdout_acc=0.6075 f1=0.6171
+  meta=CatBoost: holdout_acc=0.6050 f1=0.6300
+Wrote /home/luk_viper/ML/results_stacking_17/4k_bert/combined_4k_bert.xlsx
+========================================================================
+STACKING-17  size=4k  embedder=roberta
+========================================================================
+Reused embedding cache roberta_n4000_rs42.npy shape=(4000, 768)
+[normal] Ranking bases on development (3200 rows)...
+  rank Logistic Regression       val_acc=0.5469
+  rank Perceptron                val_acc=0.5422
+  rank LDA                       val_acc=0.6156
+  rank KNN                       val_acc=0.5594
+  rank Decision Tree             val_acc=0.5516
+  rank Extra Trees               val_acc=0.5953
+  rank Random Forest             val_acc=0.5922
+  rank AdaBoost                  val_acc=0.5672
+  rank Gradient Boosting         val_acc=0.6078
+  rank SVM                       val_acc=0.5391
+  rank Naive Bayes               val_acc=0.5828
+  rank Neural Network (MLP)      val_acc=0.5891
+  rank XGBoost                   val_acc=0.5844
+  rank LightGBM                  val_acc=0.6203
+  rank CatBoost                  val_acc=0.5938
+[normal] Top-3 meta candidates: ['LightGBM', 'LDA', 'Gradient Boosting']
+[normal] Using 15 base estimators
+[normal] Stacking with meta=LightGBM ...
+  meta=LightGBM: holdout_acc=0.5900 f1=0.5859 auc=0.6335062499999999
+[normal] Stacking with meta=LDA ...
+  meta=LDA: holdout_acc=0.5725 f1=0.5627 auc=0.5966374999999999
+[normal] Stacking with meta=Gradient Boosting ...
+  meta=Gradient Boosting: holdout_acc=0.6050 f1=0.6099 auc=0.6464749999999999
+[cross-fold] Ranking bases on development (3200 rows)...
+  rank Logistic Regression       val_acc=0.5469
+  rank Perceptron                val_acc=0.5422
+  rank LDA                       val_acc=0.6156
+  rank KNN                       val_acc=0.5594
+  rank Decision Tree             val_acc=0.5516
+  rank Extra Trees               val_acc=0.5953
+  rank Random Forest             val_acc=0.5922
+  rank AdaBoost                  val_acc=0.5672
+  rank Gradient Boosting         val_acc=0.6078
+  rank SVM                       val_acc=0.5391
+  rank Naive Bayes               val_acc=0.5828
+  rank Neural Network (MLP)      val_acc=0.5891
+  rank XGBoost                   val_acc=0.5844
+  rank LightGBM                  val_acc=0.6203
+  rank CatBoost                  val_acc=0.5938
+[cross-fold] Top-3 meta candidates: ['LightGBM', 'LDA', 'Gradient Boosting']
+[cross-fold] E0 exchange=0.0
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LightGBM: holdout_acc=0.6000 f1=0.5970
+  meta=LDA: holdout_acc=0.6262 f1=0.6230
+  meta=Gradient Boosting: holdout_acc=0.6150 f1=0.6207
+[cross-fold] E1 exchange=0.1
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LightGBM: holdout_acc=0.5750 f1=0.5663
+  meta=LDA: holdout_acc=0.6225 f1=0.6187
+  meta=Gradient Boosting: holdout_acc=0.6150 f1=0.6131
+[cross-fold] E2 exchange=0.25
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LightGBM: holdout_acc=0.5737 f1=0.5816
+  meta=LDA: holdout_acc=0.6262 f1=0.6248
+  meta=Gradient Boosting: holdout_acc=0.6000 f1=0.5918
+[cross-fold] E3 exchange=0.4
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LightGBM: holdout_acc=0.5475 f1=0.5299
+  meta=LDA: holdout_acc=0.6275 f1=0.6237
+  meta=Gradient Boosting: holdout_acc=0.5913 f1=0.5938
+Wrote /home/luk_viper/ML/results_stacking_17/4k_roberta/combined_4k_roberta.xlsx
+========================================================================
+STACKING-17  size=4k  embedder=t5
+========================================================================
+Reused embedding cache t5_n4000_rs42.npy shape=(4000, 768)
+[normal] Ranking bases on development (3200 rows)...
+  rank Logistic Regression       val_acc=0.5781
+  rank Perceptron                val_acc=0.5750
+  rank LDA                       val_acc=0.6109
+  rank KNN                       val_acc=0.5859
+  rank Decision Tree             val_acc=0.5016
+  rank Extra Trees               val_acc=0.5969
+  rank Random Forest             val_acc=0.5953
+  rank AdaBoost                  val_acc=0.5609
+  rank Gradient Boosting         val_acc=0.5437
+  rank SVM                       val_acc=0.5687
+  rank Naive Bayes               val_acc=0.5922
+  rank Neural Network (MLP)      val_acc=0.5813
+  rank XGBoost                   val_acc=0.5656
+  rank LightGBM                  val_acc=0.5953
+  rank CatBoost                  val_acc=0.5969
+[normal] Top-3 meta candidates: ['LDA', 'Extra Trees', 'CatBoost']
+[normal] Using 15 base estimators
+[normal] Stacking with meta=LDA ...
+  meta=LDA: holdout_acc=0.5763 f1=0.5703 auc=0.61170625
+[normal] Stacking with meta=Extra Trees ...
+  meta=Extra Trees: holdout_acc=0.6175 f1=0.6117 auc=0.6528718750000001
+[normal] Stacking with meta=CatBoost ...
+  meta=CatBoost: holdout_acc=0.6138 f1=0.6123 auc=0.6571
+[cross-fold] Ranking bases on development (3200 rows)...
+  rank Logistic Regression       val_acc=0.5781
+  rank Perceptron                val_acc=0.5750
+  rank LDA                       val_acc=0.6109
+  rank KNN                       val_acc=0.5859
+  rank Decision Tree             val_acc=0.5016
+  rank Extra Trees               val_acc=0.5969
+  rank Random Forest             val_acc=0.5953
+  rank AdaBoost                  val_acc=0.5609
+  rank Gradient Boosting         val_acc=0.5437
+  rank SVM                       val_acc=0.5687
+  rank Naive Bayes               val_acc=0.5922
+  rank Neural Network (MLP)      val_acc=0.5813
+  rank XGBoost                   val_acc=0.5656
+  rank LightGBM                  val_acc=0.5953
+  rank CatBoost                  val_acc=0.5969
+[cross-fold] Top-3 meta candidates: ['LDA', 'Extra Trees', 'CatBoost']
+[cross-fold] E0 exchange=0.0
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LDA: holdout_acc=0.6338 f1=0.6258
+  meta=Extra Trees: holdout_acc=0.5988 f1=0.6090
+  meta=CatBoost: holdout_acc=0.6075 f1=0.6180
+[cross-fold] E1 exchange=0.1
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LDA: holdout_acc=0.6325 f1=0.6325
+  meta=Extra Trees: holdout_acc=0.6000 f1=0.6030
+  meta=CatBoost: holdout_acc=0.5837 f1=0.5801
+[cross-fold] E2 exchange=0.25
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LDA: holdout_acc=0.6375 f1=0.6338
+  meta=Extra Trees: holdout_acc=0.6162 f1=0.6129
+  meta=CatBoost: holdout_acc=0.6250 f1=0.6250
+[cross-fold] E3 exchange=0.4
+    OOF base: Logistic Regression
+    OOF base: Perceptron
+    OOF base: LDA
+    OOF base: KNN
+    OOF base: Decision Tree
+    OOF base: Extra Trees
+    OOF base: Random Forest
+    OOF base: AdaBoost
+    OOF base: Gradient Boosting
+    OOF base: SVM
+    OOF base: Naive Bayes
+    OOF base: Neural Network (MLP)
+    OOF base: XGBoost
+    OOF base: LightGBM
+    OOF base: CatBoost
+  meta=LDA: holdout_acc=0.6225 f1=0.6225
+  meta=Extra Trees: holdout_acc=0.6075 f1=0.6171
+  meta=CatBoost: holdout_acc=0.6050 f1=0.6300
+Wrote /home/luk_viper/ML/results_stacking_17/4k_t5/combined_4k_t5.xlsx
+========================================================================
+STACKING-17  size=67k  embedder=tfidf
+========================================================================
+[normal] Ranking bases on development (53707 rows)...
+  rank Logistic Regression       val_acc=0.5858
+  rank Perceptron                val_acc=0.5267
+  rank LDA                       val_acc=0.5866
+  rank KNN                       val_acc=0.5588
+  rank Decision Tree             val_acc=0.5477
+  rank Extra Trees               val_acc=0.5851
+  rank Random Forest             val_acc=0.5933
+  rank AdaBoost                  val_acc=0.5338
+  rank Gradient Boosting         val_acc=0.5818
+  rank SVM                       val_acc=0.5860
+  rank Naive Bayes               val_acc=0.5400
+  rank Neural Network (MLP)      val_acc=0.5923
+  rank XGBoost                   val_acc=0.5935
+  rank LightGBM                  val_acc=0.5966
+  rank CatBoost                  val_acc=0.5854
+[normal] Top-3 meta candidates: ['LightGBM', 'XGBoost', 'Random Forest']
+[normal] Using 15 base estimators
+[normal] Stacking with meta=LightGBM ...

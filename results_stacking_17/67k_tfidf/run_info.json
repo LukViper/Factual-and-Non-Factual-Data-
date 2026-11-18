@@ -1,0 +1,9 @@
+{
+  "size": "67k",
+  "embedder": "tfidf",
+  "feature_name": "TF-IDF + SVD-500",
+  "n_dev": 53707,
+  "n_holdout": 13427,
+  "X_dev_shape": "(53707, 500)",
+  "top_k_meta": 3
+}

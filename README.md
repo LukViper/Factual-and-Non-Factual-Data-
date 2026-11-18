@@ -94,6 +94,7 @@ python -m pytest tests/ -q
 |---|---|
 | Cross-fold (all sizes × embedders) | `results_cross_fold/MASTER_cross_fold_stacking.xlsx` |
 | Normal stacking (`fever_easy`) | `results_easy/MASTER_all_sizes_embedders.xlsx` |
+| **17-base normal vs cross-fold (final)** | [`STACKING_17_FINAL_COMPARISON.md`](STACKING_17_FINAL_COMPARISON.md) + `results_stacking_17/MASTER_stacking_17.xlsx` |
 
 ## Full tuning outputs (Default / Grid / Random / Bayesian Optuna)
 

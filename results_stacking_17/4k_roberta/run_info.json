@@ -1,0 +1,9 @@
+{
+  "size": "4k",
+  "embedder": "roberta",
+  "feature_name": "roberta (disk cache)",
+  "n_dev": 3200,
+  "n_holdout": 800,
+  "X_dev_shape": "(3200, 768)",
+  "top_k_meta": 3
+}
