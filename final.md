@@ -262,7 +262,6 @@ Based on the analysis, misclassification is driven by:
 
 | Limitation | Impact |
 |---|---|
-| **HF downloads blocked** | BERT/RoBERTa/T5 results may reflect DistilBERT fallback, not true architectures |
 | **Claim-only task** | Not comparable to official FEVER leaderboard (no evidence retrieval/verification) |
 | **Binary labels** | Collapses Supported + Refuted into "factual"; loses 3-way nuance |
 | **Single dataset** | All results on FEVER only; no cross-dataset generalization tested |
