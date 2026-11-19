@@ -254,6 +254,20 @@ Each CSV also has a matching `all_claims_67k_<embedder>.csv` (or `_meta_ET.csv`)
 | <= 10 tokens | **40.9%** | 37.8% | **34.6%** | 35.7% | **34.6%** |
 | <= 15 tokens | **41.4%** | 38.6% | **35.5%** | 36.6% | **35.5%** |
 
+#### Predicted Label Bias on Misclassified Short Claims
+
+When misclassified claims have **≤ 5 word tokens**, models show a clear tendency to predict **"non-factual"** — especially TF-IDF and MiniLM:
+
+| Embedder | ≤5 tokens: Pred. Factual | ≤5 tokens: Pred. Non-Factual | ≤10 tokens: Pred. Factual | ≤10 tokens: Pred. Non-Factual | ≤15 tokens: Pred. Factual | ≤15 tokens: Pred. Non-Factual |
+|---|---:|---:|---:|---:|---:|---:|
+| TF-IDF | 32.7% | **67.3%** | 42.4% | **57.6%** | 43.9% | **56.1%** |
+| MiniLM | 43.2% | **56.8%** | 46.8% | **53.2%** | 48.0% | **52.0%** |
+| BERT | 48.3% | **51.7%** | 48.9% | **51.1%** | 49.0% | **51.0%** |
+| RoBERTa | 49.1% | **50.9%** | 49.4% | **50.6%** | 48.8% | **51.2%** |
+| T5 | 48.3% | **51.7%** | 48.9% | **51.1%** | 49.0% | **51.0%** |
+
+**Key inference:** Because these are misclassified claims, every "true factual" claim was predicted as non-factual, and every "true non-factual" claim was predicted as factual — the model **flips the label** on short claims it gets wrong. TF-IDF shows the strongest non-factual default bias (67.3%), while BERT/RoBERTa (dense embeddings) reduce this to near-balance (~51-52% non-factual).
+
 #### Sample Misclassified Claims (short claims)
 
 | id | claim | true | predicted | tokens | embedder |
