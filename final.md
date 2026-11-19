@@ -106,6 +106,8 @@ Unlike normal stacking (where Base and Meta train on the same development pool),
 
 **Leakage control:** Meta receives only out-of-fold (OOF) Base scores — for samples Base trained on, Meta uses a Base clone that held them out (inner 5-fold CV).
 
+**Default meta model:** Logistic Regression (`max_iter=2000`). An additional experiment with **ExtraTreesClassifier** as the meta model was also run (see §3.5).
+
 ### 3.2 Cross-Fold Holdout Stacking Accuracy (67k)
 
 | Embedder | E0 (0%) | E1 (10%) | E2 (25%) | E3 (40%) | Best |
@@ -129,25 +131,64 @@ Unlike normal stacking (where Base and Meta train on the same development pool),
 
 Using the full 17-classifier suite (LR, Perceptron, LDA, KNN, DT, ET, RF, AdaBoost, GB, SVM, NB, MLP, Voting, Stacking, XGB, LightGBM, CatBoost) as bases:
 
-| Size | Embedder | Normal Best | Cross-Fold Best | Δ Acc | Winner |
-|---|---|---:|---:|---:|---|
-| 4k | bert/t5 | 0.6175 | 0.6375 | +0.0200 | Cross-fold |
-| 4k | minilm | 0.5888 | 0.6112 | +0.0225 | Cross-fold |
-| 4k | roberta | 0.6050 | 0.6275 | +0.0225 | Cross-fold |
-| 4k | tfidf | 0.5212 | 0.5738 | +0.0525 | Cross-fold |
-| 67k | bert/t5 | 0.6536 | 0.6533 | −0.0003 | Tie |
-| 67k | minilm | 0.6240 | 0.6220 | −0.0019 | Normal |
-| 67k | roberta | 0.6435 | 0.6446 | +0.0011 | Cross-fold |
-| 67k | tfidf | 0.6002 | 0.6024 | +0.0022 | Cross-fold |
+| Size | Embedder | Method | Best Meta Model | Exchange | Holdout Acc | F1 | Winner |
+|---|---|---|---|---|---:|---:|---|
+| 4k | bert/t5 | Normal | Extra Trees | — | 0.6175 | 0.6117 | |
+| 4k | bert/t5 | Cross-fold | LDA | E2 | **0.6375** | 0.6338 | Cross-fold (+0.0200) |
+| 4k | minilm | Normal | Logistic Regression | — | 0.5888 | 0.5923 | |
+| 4k | minilm | Cross-fold | Logistic Regression | E2 | **0.6112** | 0.6088 | Cross-fold (+0.0225) |
+| 4k | roberta | Normal | Gradient Boosting | — | 0.6050 | 0.6099 | |
+| 4k | roberta | Cross-fold | LDA | E3 | **0.6275** | 0.6237 | Cross-fold (+0.0225) |
+| 4k | tfidf | Normal | LightGBM | — | 0.5212 | 0.4845 | |
+| 4k | tfidf | Cross-fold | Gradient Boosting | E1 | **0.5738** | 0.5297 | Cross-fold (+0.0525) |
+| 67k | bert/t5 | Normal | Logistic Regression | — | 0.6536 | 0.6610 | |
+| 67k | bert/t5 | Cross-fold | Logistic Regression | E2 | 0.6533 | 0.6607 | Tie (−0.0003) |
+| 67k | t5 | Normal | Logistic Regression | — | 0.6536 | 0.6610 | |
+| 67k | t5 | Cross-fold | Logistic Regression | E2 | 0.6533 | 0.6607 | Tie (−0.0003) |
+| 67k | minilm | Normal | LightGBM | — | **0.6240** | 0.6377 | Normal (−0.0019) |
+| 67k | minilm | Cross-fold | SVM | E0 | 0.6220 | 0.6326 | |
+| 67k | roberta | Normal | Logistic Regression | — | 0.6435 | 0.6543 | |
+| 67k | roberta | Cross-fold | SVM | E0 | **0.6446** | 0.6556 | Cross-fold (+0.0011) |
+| 67k | tfidf | Normal | Gradient Boosting | — | 0.6002 | 0.6192 | |
+| 67k | tfidf | Cross-fold | LightGBM | E0 | **0.6024** | 0.6309 | Cross-fold (+0.0022) |
 
 **Cross-fold wins 7 of 10 head-to-heads**, especially on 4k (+2 to +5.3 points). On 67k, both methods converge.
 
-### 3.5 Key Insight
+**Meta models vary by condition — there is no single meta model for all 17 classifiers.** The meta model is selected per experiment (size × embedder × method) from the top validation performers across the 17-classifier suite. Meta models used include: Logistic Regression, LDA, SVM, LightGBM, Extra Trees, Gradient Boosting.
+
+| Meta Model Type | Conditions Where It Was Best |
+|---|---|
+| Logistic Regression | 4k minilm (CF), 67k bert/t5 (N+CF), 67k t5 (N+CF), 67k roberta (Normal) |
+| LDA | 4k bert/t5 (CF), 4k roberta (CF) |
+| SVM | 67k minilm (CF), 67k roberta (CF) |
+| LightGBM | 4k tfidf (Normal), 67k minilm (Normal), 67k tfidf (CF) |
+| Extra Trees | 4k bert/t5 (Normal) |
+| Gradient Boosting | 4k roberta (Normal), 4k tfidf (CF), 67k tfidf (Normal) |
+
+### 3.5 ExtraTreesClassifier as Meta Model (Additional Experiment)
+
+In addition to the default Logistic Regression meta model, cross-fold stacking was also tested with **ExtraTreesClassifier** (100 estimators) as the meta model on balanced 67K data for all 5 embedders.
+
+| Embedder | E0 (0%) | E1 (10%) | E2 (25%) | E3 (40%) | Best ET Meta Acc |
+|---|---:|---:|---:|---:|---:|
+| TF-IDF | 0.5267 | 0.5261 | 0.5231 | 0.5219 | 0.5267 |
+| MiniLM | 0.5354 | 0.5377 | 0.5345 | 0.5379 | 0.5379 |
+| BERT | 0.5627 | 0.5651 | 0.5694 | 0.5645 | 0.5694 |
+| RoBERTa | 0.5563 | 0.5539 | 0.5599 | 0.5448 | 0.5599 |
+| T5 | 0.5627 | 0.5651 | 0.5694 | 0.5645 | 0.5694 |
+
+**Finding:** ExtraTreesClassifier as the meta model performs **worse than Logistic Regression** on this task (best ~0.57 vs Logistic Regression's ~0.65). The extra meta model results are saved in:
+- `misclassified_output/misclassified_claims_67k_<embedder>_meta_ET.csv`
+- `misclassified_output/all_claims_67k_<embedder>_meta_ET.csv`
+
+### 3.6 Key Insight
 
 Cross-fold stacking trades a small amount of raw accuracy (on 67k) for:
 - Better leakage control (OOF meta features)
 - Clean, untouched 20% holdout evaluation
 - Better performance on **small data (4k)** where normal stacking overfits severely
+
+**Meta model choice matters:** Logistic Regression is the better meta model for this task; ExtraTreesClassifier underperforms as a meta learner on base-model probability scores.
 
 ---
 
@@ -164,7 +205,7 @@ For each embedder (TF-IDF, MiniLM, BERT, RoBERTa, T5) on cross-fold 67K:
 
 ### 4.2 Output Files (in `misclassified_output/`)
 
-| Embedder | Misclassified CSV | Total Misclassified Rows |
+| Embedder | Misclassified CSV (Meta=LogReg) | Total Misclassified Rows |
 |---|---|---:|
 | TF-IDF | `misclassified_claims_67k_tfidf.csv` | 80,259 |
 | MiniLM | `misclassified_claims_67k_minilm.csv` | 74,974 |
@@ -172,7 +213,16 @@ For each embedder (TF-IDF, MiniLM, BERT, RoBERTa, T5) on cross-fold 67K:
 | RoBERTa | `misclassified_claims_67k_roberta.csv` | 71,069 |
 | T5 | `misclassified_claims_67k_t5.csv` | 68,879 |
 
-Each CSV also has a matching `all_claims_67k_<embedder>.csv` with correctness flags for every claim.
+**ExtraTrees meta model variants:**
+| Embedder | Misclassified CSV (Meta=ExtraTrees) | Total Misclassified Rows |
+|---|---|---:|
+| TF-IDF | `misclassified_claims_67k_tfidf_meta_ET.csv` | 86,171 |
+| MiniLM | `misclassified_claims_67k_minilm_meta_ET.csv` | 81,970 |
+| BERT | `misclassified_claims_67k_bert_meta_ET.csv` | 76,594 |
+| RoBERTa | `misclassified_claims_67k_roberta_meta_ET.csv` | 78,696 |
+| T5 | `misclassified_claims_67k_t5_meta_ET.csv` | 76,594 |
+
+Each CSV also has a matching `all_claims_67k_<embedder>.csv` (or `_meta_ET.csv`) with correctness flags for every claim.
 
 ### 4.3 Misclassified Count by Embedder & Metric Set (totals across E0–E3)
 
@@ -280,8 +330,9 @@ Based on the analysis, misclassification is driven by:
 | `cross_fold_easy.py` | Faculty demo: cross-fold exchange stacking (E0–E3) |
 | `cross_fold_stacking/` | Full cross-fold experiment package (data, folds, exchange, OOF, leakage) |
 | `stacking_17/` | 17-classifier suite: normal vs cross-fold comparison |
-| `make_misclassified_list_embedder.py` | Generates per-claim misclassified CSVs for any embedder |
-| `misclassified_output/` | CSVs for all 5 embedders (misclassified + all claims) |
+| `make_misclassified_list_embedder.py` | Generates per-claim misclassified CSVs for any embedder (LogReg meta) |
+| `run_cross_fold_meta_et.py` | Runs cross-fold with `ExtraTreesClassifier` as meta model |
+| `misclassified_output/` | CSVs for all 5 embedders (misclassified + all claims, both LogReg and ExtraTrees meta models) |
 | `MISCLASSIFIED_CLAIMS_67K_ALL_EMBEDDERS.md` | Detailed misclassification analysis document |
 | `FEVER_LITERATURE_COMPARISON.md` | Comparison with published FEVER papers |
 | `STACKING_17_FINAL_COMPARISON.md` | Normal vs cross-fold 17-base comparison |
