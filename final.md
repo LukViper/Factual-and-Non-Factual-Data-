@@ -153,7 +153,7 @@ Cross-fold stacking trades a small amount of raw accuracy (on 67k) for:
 
 ## 4. MISCLASSIFIED CLAIMS ANALYSIS
 
-Per your teacher's request: first list misclassified claims, then examine whether models err more on claims with **fewer word tokens**.
+ first list misclassified claims, then examine whether models err more on claims with **fewer word tokens**.
 
 ### 4.1 Method
 
@@ -184,7 +184,7 @@ Each CSV also has a matching `all_claims_67k_<embedder>.csv` with correctness fl
 | RoBERTa | 15,805 | 15,842 | 19,705 | 19,717 | 71,069 |
 | T5 | 15,353 | 15,293 | 19,110 | 19,123 | 68,879 |
 
-### 4.4 Word-Token Analysis — Teacher's Hypothesis
+### 4.4 Word-Token Analysis
 
 **Hypothesis:** Models misclassify claims with fewer word tokens more often.
 
@@ -298,5 +298,5 @@ Based on the analysis, misclassification is driven by:
 
 - **Best accuracy:** BERT/T5 stacking ≈ **65.4%** on balanced 67k claim-only binary FEVER (above chance, comparable to published claim-only baselines).
 - **Cross-fold stacking:** Wins on small data (4k), converges on large data (67k), with better leakage control.
-- **Misclassification driver:** Short claims (<= 10 tokens) are misclassified ~31.5%–40.9% across all embedders — confirming your teacher's hypothesis.
+- **Misclassification driver:** Short claims (<= 10 tokens) are misclassified ~31.5%–40.9% across all embedders.
 - **Not SOTA on official FEVER:** We do not use evidence retrieval or 3-way labels; results are claim-only binary and should not be compared directly to the FEVER leaderboard.
