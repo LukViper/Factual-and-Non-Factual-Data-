@@ -17,22 +17,22 @@
 
 | # | Title | Authors | Conference / Workshop | Year | Proceedings / Track | DOI / Link |
 |---|-------|---------|----------------------|------|---------------------|------------|
-| 1 | FEVER: A Large-scale Dataset for Fact Extraction and VERification | Thorne, Vlachos, Christodoulopoulos, Mittal | **NAACL-HLT 2018** (North American Chapter of ACL) | 2018 | Main Conference | [N18-1074](https://aclanthology.org/N18-1074/) |
-| 2 | "Liar, Liar Pants on Fire": A New Benchmark Dataset for Fake News Detection | William Yang Wang | **ACL 2017** (Annual Meeting of the ACL) | 2017 | Main Conference | [P17-2067](https://aclanthology.org/P17-2067/) |
-| 3 | MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims | Augenstein, Lioma, Wang, Lima, Hansen, Hansen, Simonsen | **EMNLP 2019** (Empirical Methods in NLP) | 2019 | Main Conference | [D19-1475](https://aclanthology.org/D19-1475/) |
-| 4 | FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information | Aly, Guo, Schlichtkrull, Thorne, Vlachos, Christodoulopoulos, Cocarascu, Mittal | **NeurIPS 2021** | 2021 | **Datasets & Benchmarks Track** | [NeurIPS 2021 D&B](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/68d30a9594728bc39aa24be94b319d21-Abstract-round1.html) |
-| 5 | CFEVER: A Chinese Fact Extraction and VERification Dataset | Lin, Li, Wang, Wang, He, Zhang, Li | **AAAI 2024** (AAAI Conference on AI) | 2024 | Main Conference | [10.1609/aaai.v38i17.29825](https://doi.org/10.1609/aaai.v38i17.29825) |
+| 1 | FEVER: A Large-scale Dataset for Fact Extraction and VERification | Thorne, Vlachos, Christodoulopoulos, Mittal | **NAACL-HLT 2018** (North American Chapter of the Association for Computational Linguistics) | 2018 | Main Conference | [N18-1074](https://aclanthology.org/N18-1074/) |
+| 2 | "Liar, Liar Pants on Fire": A New Benchmark Dataset for Fake News Detection | William Yang Wang | **ACL 2017** (Annual Meeting of the Association for Computational Linguistics) | 2017 | Main Conference | [P17-2067](https://aclanthology.org/P17-2067/) |
+| 3 | MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims | Augenstein, Lioma, Wang, Lima, Hansen, Hansen, Simonsen | **EMNLP 2019** (Conference on Empirical Methods in Natural Language Processing) | 2019 | Main Conference | [D19-1475](https://aclanthology.org/D19-1475/) |
+| 4 | FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information | Aly, Guo, Schlichtkrull, Thorne, Vlachos, Christodoulopoulos, Cocarascu, Mittal | **NeurIPS 2021** (Neural Information Processing Systems) | 2021 | **Datasets & Benchmarks Track** | [NeurIPS 2021 D&B](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/68d30a9594728bc39aa24be94b319d21-Abstract-round1.html) |
+| 5 | CFEVER: A Chinese Fact Extraction and VERification Dataset | Lin, Li, Wang, Wang, He, Zhang, Li | **AAAI 2024** (AAAI Conference on Artificial Intelligence) | 2024 | Main Conference | [10.1609/aaai.v38i17.29825](https://doi.org/10.1609/aaai.v38i17.29825) |
 | 6 | Fake News Detection on Social Media using Geometric Deep Learning | Monti, Frasca, Eynard, Mannion, Bronstein | **ICLR 2019** (International Conference on Learning Representations) | 2019 | Main Conference | [OpenReview](https://openreview.net/forum?id=Byl8y3R5K7) |
-| 7 | FANG: Leveraging Social Context for Fake News Detection Using Graph Representation | Nguyen, Sugiyama, Nakov, Kan | **CIKM 2020** (ACM Conf. on Information & Knowledge Management) | 2020 | Main Conference | [10.1145/3340531.3412046](https://doi.org/10.1145/3340531.3412046) |
-| 8 | X-FACT: A New Benchmark Dataset for Multilingual Fact Checking | Gupta, Srikumar | **ACL 2021** (Short Paper) | 2021 | **Short Paper Track** | [2021.acl-short.86](https://aclanthology.org/2021.acl-short.86/) |
-| 9 | Fact or Fiction: Verifying Scientific Claims (SciFact) | Wadden, Lin, Lo, Wang, van Zuylen, Cohan, Hajishirzi | **EMNLP 2020** | 2020 | Main Conference | [2020.emnlp-main.609](https://aclanthology.org/2020.emnlp-main.609/) |
-| 10 | HoVer: A Dataset for Many-Hop Fact Extraction And Claim Verification | Jiang, Bordia, Zhong, Dognin, Singh, Bansal | **Findings of EMNLP 2020** | 2020 | **Findings Track** | [2020.findings-emnlp.309](https://aclanthology.org/2020.findings-emnlp.309/) |
-| 11 | AVeriTeC: A Dataset for Real-world Claim Verification with Evidence from the Web | Schlichtkrull, Guo, Vlachos | **NeurIPS 2023** | 2023 | **Datasets & Benchmarks Track** | [NeurIPS 2023 D&B](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cd86a30526cd1aff61d6f89f107634e4-Abstract-Datasets_and_Benchmarks.html) |
-| 12 | CLIMATE-FEVER: A Dataset for Verification of Real-World Climate Claims | Diggelmann, Boyd-Graber, Bulian, Ciaramita, Leippold | **NeurIPS 2020 Workshop** — "Tackling Climate Change with ML" | 2020 | **Workshop Proceedings** | [arXiv:2012.00614](https://arxiv.org/abs/2012.00614) |
-| 13 | The Automated Verification of Textual Claims (AVeriTeC) Shared Task | Schlichtkrull, Chen, Whitehouse, Deng, Akhtar, Han, Nakov, Thorne, Vlachos | **7th FEVER Workshop @ EMNLP 2024** | 2024 | **Workshop Proceedings** | [2024.fever-1.1](https://aclanthology.org/2024.fever-1.1/) |
-| 14 | The 2nd AVeriTeC Shared Task: Open-weights, Reproducible and Efficient Systems | Akhtar, Schlichtkrull, Chen, Whitehouse, Deng, Han, Nakov, Thorne, Vlachos | **8th FEVER Workshop @ EMNLP 2025** | 2025 | **Workshop Proceedings** | [2025.fever-1.15](https://aclanthology.org/2025.fever-1.15/) (expected) |
-| 16 | NoFake at CheckThat! 2021: Fake News Detection Using BERT | Sushma Kumari | **CLEF 2021 CheckThat! Lab** | 2021 | **Working Notes / Lab Proceedings** | [CEUR-WS Vol-2936](https://ceur-ws.org/Vol-2936/paper-30.pdf) |
-| 18 | AVeriTeC: A Dataset for Real-world Claim Verification with Evidence from the Web | Schlichtkrull, Guo, Vlachos | **Same as Paper 11** (NeurIPS 2023 D&B) | 2023 | **Duplicate Entry** | See Paper 11 |
+| 7 | FANG: Leveraging Social Context for Fake News Detection Using Graph Representation | Nguyen, Sugiyama, Nakov, Kan | **CIKM 2020** (ACM Conference on Information and Knowledge Management) | 2020 | Main Conference | [10.1145/3340531.3412046](https://doi.org/10.1145/3340531.3412046) |
+| 8 | X-FACT: A New Benchmark Dataset for Multilingual Fact Checking | Gupta, Srikumar | **ACL 2021** (Annual Meeting of the Association for Computational Linguistics) | 2021 | **Short Paper Track** | [2021.acl-short.86](https://aclanthology.org/2021.acl-short.86/) |
+| 9 | Fact or Fiction: Verifying Scientific Claims (SciFact) | Wadden, Lin, Lo, Wang, van Zuylen, Cohan, Hajishirzi | **EMNLP 2020** (Conference on Empirical Methods in Natural Language Processing) | 2020 | Main Conference | [2020.emnlp-main.609](https://aclanthology.org/2020.emnlp-main.609/) |
+| 10 | HoVer: A Dataset for Many-Hop Fact Extraction And Claim Verification | Jiang, Bordia, Zhong, Dognin, Singh, Bansal | **Findings of EMNLP 2020** (Findings of the Association for Computational Linguistics) | 2020 | **Findings Track** | [2020.findings-emnlp.309](https://aclanthology.org/2020.findings-emnlp.309/) |
+| 11 | AVeriTeC: A Dataset for Real-world Claim Verification with Evidence from the Web | Schlichtkrull, Guo, Vlachos | **NeurIPS 2023** (Neural Information Processing Systems) | 2023 | **Datasets & Benchmarks Track** | [NeurIPS 2023 D&B](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cd86a30526cd1aff61d6f89f107634e4-Abstract-Datasets_and_Benchmarks.html) |
+| 12 | CLIMATE-FEVER: A Dataset for Verification of Real-World Climate Claims | Diggelmann, Boyd-Graber, Bulian, Ciaramita, Leippold | **NeurIPS 2020 Workshop** — "Tackling Climate Change with Machine Learning" | 2020 | **Workshop Proceedings** | [arXiv:2012.00614](https://arxiv.org/abs/2012.00614) |
+| 13 | The Automated Verification of Textual Claims (AVeriTeC) Shared Task | Schlichtkrull, Chen, Whitehouse, Deng, Akhtar, Han, Nakov, Thorne, Vlachos | **7th FEVER Workshop @ EMNLP 2024** (Seventh Fact Extraction and VERification Workshop) | 2024 | **Workshop Proceedings** | [2024.fever-1.1](https://aclanthology.org/2024.fever-1.1/) |
+| 14 | The 2nd AVeriTeC Shared Task: Open-weights, Reproducible and Efficient Systems | Akhtar, Schlichtkrull, Chen, Whitehouse, Deng, Han, Nakov, Thorne, Vlachos | **8th FEVER Workshop @ EMNLP 2025** (Eighth Fact Extraction and VERification Workshop) | 2025 | **Workshop Proceedings** | [2025.fever-1.15](https://aclanthology.org/2025.fever-1.15/) (expected) |
+| 16 | NoFake at CheckThat! 2021: Fake News Detection Using BERT | Sushma Kumari | **CLEF 2021 CheckThat! Lab** (Conference and Labs of the Evaluation Forum) | 2021 | **Working Notes / Lab Proceedings** | [CEUR-WS Vol-2936](https://ceur-ws.org/Vol-2936/paper-30.pdf) |
+| 18 | AVeriTeC: A Dataset for Real-world Claim Verification with Evidence from the Web | Schlichtkrull, Guo, Vlachos | **Same as Paper 11** (NeurIPS 2023 Datasets & Benchmarks) | 2023 | **Duplicate Entry** | See Paper 11 |
 
 ---
 
@@ -96,14 +96,14 @@
 | 1 | NAACL 2018 |
 | 2 | ACL 2017 |
 | 3 | EMNLP 2019 |
-| 4 | NeurIPS 2021 D&B |
+| 4 | NeurIPS 2021 Datasets & Benchmarks |
 | 5 | AAAI 2024 |
 | 6 | ICLR 2019 |
 | 7 | CIKM 2020 |
 | 8 | ACL 2021 (Short) |
 | 9 | EMNLP 2020 |
 | 10 | EMNLP 2020 Findings |
-| 11 | NeurIPS 2023 D&B |
+| 11 | NeurIPS 2023 Datasets & Benchmarks |
 | 12 | NeurIPS 2020 Workshop |
 | 13 | FEVER 2024 Workshop |
 | 14 | FEVER 2025 Workshop |
@@ -117,6 +117,7 @@
 ---
 
 *Generated for literature survey documentation and thesis/report bibliography.*
+
 ---
 
 # Journal Recommendation for Your Work
@@ -130,13 +131,13 @@
 | Journal | Tier | Why It Fits | Acceptance Rate | Typical Timeline |
 |---------|------|-------------|-----------------|------------------|
 | **Information Sciences** (Elsevier) | Q1, IF ~8.1 | **Paper #15 in your survey** published here; covers fact-checking, misinformation, ML for verification | ~15–20% | 3–6 months |
-| **IEEE Transactions on Knowledge and Data Engineering (TKDE)** | Q1, IF ~7.5 | Strong on data mining, ensembles, fact verification; published FEVER-related work | ~15–18% | 4–8 months |
-| **ACM Transactions on Information Systems (TOIS)** | Q1, IF ~6.8 | IR + verification focus; good for stacking/ensemble methods on retrieval tasks | ~12–15% | 6–12 months |
+| **IEEE Transactions on Knowledge and Data Engineering** | Q1, IF ~7.5 | Strong on data mining, ensembles, fact verification; published FEVER-related work | ~15–18% | 4–8 months |
+| **ACM Transactions on Information Systems** | Q1, IF ~6.8 | IR + verification focus; good for stacking/ensemble methods on retrieval tasks | ~12–15% | 6–12 months |
 | **Knowledge-Based Systems** (Elsevier) | Q1, IF ~7.6 | Applied AI, ensemble methods, fact-checking applications; fast turnaround | ~20–25% | 2–4 months |
 | **Expert Systems with Applications** (Elsevier) | Q1, IF ~7.5 | Very applied; loves ensemble/classifier comparison papers with statistical rigor | ~18–22% | 3–5 months |
 | **Journal of Web Semantics** (Elsevier) | Q1, IF ~5.5 | Semantic web + fact verification; good for FEVER-related work | ~20% | 3–6 months |
-| **Information Processing & Management (IPM)** | Q1, IF ~7.2 | Information retrieval, fact-checking, misinformation detection | ~15–20% | 3–6 months |
-| **Data Mining and Knowledge Discovery (DMKD)** | Q1, IF ~5.5 | Core data mining; ensemble methods, stacking, cross-validation | ~10–15% | 6–12 months |
+| **Information Processing & Management** | Q1, IF ~7.2 | Information retrieval, fact-checking, misinformation detection | ~15–20% | 3–6 months |
+| **Data Mining and Knowledge Discovery** | Q1, IF ~5.5 | Core data mining; ensemble methods, stacking, cross-validation | ~10–15% | 6–12 months |
 
 ---
 
@@ -144,11 +145,11 @@
 
 | Your Contribution | Best Journal Fit | Reason |
 |-------------------|------------------|--------|
-| **Cross-fold data-exchange stacking (novel method)** | **TKDE**, **DMKD**, **Information Sciences** | Methods-focused, novel ensemble design |
+| **Cross-fold data-exchange stacking (novel method)** | **IEEE Transactions on Knowledge and Data Engineering**, **Data Mining and Knowledge Discovery**, **Information Sciences** | Methods-focused, novel ensemble design |
 | **Large-scale empirical comparison (17 classifiers × 5 embedders × 2 sizes)** | **Expert Systems with Applications**, **Knowledge-Based Systems** | Applied, benchmark-heavy, loves big comparison tables |
-| **Statistical rigor (bootstrap CI, Wilcoxon, Friedman/Nemenyi)** | **Information Sciences**, **IPM** | Values statistical validation |
-| **FEVER claim-only binary classification** | **Journal of Web Semantics**, **IPM** | Domain-relevant audience |
-| **Error analysis / misclassified claim export** | **Knowledge-Based Systems**, **Expert Systems** | Applied analysis appreciated |
+| **Statistical rigor (bootstrap CI, Wilcoxon, Friedman/Nemenyi)** | **Information Sciences**, **Information Processing & Management** | Values statistical validation |
+| **FEVER claim-only binary classification** | **Journal of Web Semantics**, **Information Processing & Management** | Domain-relevant audience |
+| **Error analysis / misclassified claim export** | **Knowledge-Based Systems**, **Expert Systems with Applications** | Applied analysis appreciated |
 
 ---
 
@@ -162,9 +163,9 @@
 ### 2. Knowledge-Based Systems (Elsevier) ⭐ **Fastest Turnaround**
 - **Why:** Loves "ensemble methods for classification" + "fact-checking applications" + "statistical comparison of classifiers"
 - **Pros:** Faster review (2–4 months), good IF, very applied audience
-- **Cons:** Less theoretical prestige than TKDE/DMKD
+- **Cons:** Less theoretical prestige than IEEE Transactions on Knowledge and Data Engineering / Data Mining and Knowledge Discovery
 
-### 3. IEEE TKDE ⭐ **Highest Prestige for Method**
+### 3. IEEE Transactions on Knowledge and Data Engineering ⭐ **Highest Prestige for Method**
 - **Why:** Core data engineering venue; stacking, cross-validation, and novel ensemble designs are in scope
 - **Pros:** High visibility, strong for method papers
 - **Cons:** Longer review (4–8 months), more theoretical depth expected
@@ -184,7 +185,7 @@ Given your work has **novel method (cross-fold exchange) + large empirical study
 | **WWW 2025** | Oct 2024 | Web-scale verification, misinformation track |
 | **ICDM 2025** | May 2025 | Core data mining; stacking/ensemble methods |
 
-**Strategy:** Submit to **EMNLP/NAACL/ACL** first (conference paper, 8 pages + appendix), then extend to **Information Sciences / TKDE** (journal version, 30%+ new content).
+**Strategy:** Submit to **EMNLP/NAACL/ACL** first (conference paper, 8 pages + appendix), then extend to **Information Sciences / IEEE Transactions on Knowledge and Data Engineering** (journal version, 30%+ new content).
 
 ---
 
