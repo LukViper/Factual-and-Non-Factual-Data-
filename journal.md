@@ -117,3 +117,95 @@
 ---
 
 *Generated for literature survey documentation and thesis/report bibliography.*
+---
+
+# Journal Recommendation for Your Work
+
+**Based on:** Your FEVER claim-only binary classification project with cross-fold data-exchange stacking, 17-classifier empirical comparison, and statistical analysis.
+
+---
+
+## Top Journal Targets for Your Work
+
+| Journal | Tier | Why It Fits | Acceptance Rate | Typical Timeline |
+|---------|------|-------------|-----------------|------------------|
+| **Information Sciences** (Elsevier) | Q1, IF ~8.1 | **Paper #15 in your survey** published here; covers fact-checking, misinformation, ML for verification | ~15–20% | 3–6 months |
+| **IEEE Transactions on Knowledge and Data Engineering (TKDE)** | Q1, IF ~7.5 | Strong on data mining, ensembles, fact verification; published FEVER-related work | ~15–18% | 4–8 months |
+| **ACM Transactions on Information Systems (TOIS)** | Q1, IF ~6.8 | IR + verification focus; good for stacking/ensemble methods on retrieval tasks | ~12–15% | 6–12 months |
+| **Knowledge-Based Systems** (Elsevier) | Q1, IF ~7.6 | Applied AI, ensemble methods, fact-checking applications; fast turnaround | ~20–25% | 2–4 months |
+| **Expert Systems with Applications** (Elsevier) | Q1, IF ~7.5 | Very applied; loves ensemble/classifier comparison papers with statistical rigor | ~18–22% | 3–5 months |
+| **Journal of Web Semantics** (Elsevier) | Q1, IF ~5.5 | Semantic web + fact verification; good for FEVER-related work | ~20% | 3–6 months |
+| **Information Processing & Management (IPM)** | Q1, IF ~7.2 | Information retrieval, fact-checking, misinformation detection | ~15–20% | 3–6 months |
+| **Data Mining and Knowledge Discovery (DMKD)** | Q1, IF ~5.5 | Core data mining; ensemble methods, stacking, cross-validation | ~10–15% | 6–12 months |
+
+---
+
+## Best Match for Your Specific Contributions
+
+| Your Contribution | Best Journal Fit | Reason |
+|-------------------|------------------|--------|
+| **Cross-fold data-exchange stacking (novel method)** | **TKDE**, **DMKD**, **Information Sciences** | Methods-focused, novel ensemble design |
+| **Large-scale empirical comparison (17 classifiers × 5 embedders × 2 sizes)** | **Expert Systems with Applications**, **Knowledge-Based Systems** | Applied, benchmark-heavy, loves big comparison tables |
+| **Statistical rigor (bootstrap CI, Wilcoxon, Friedman/Nemenyi)** | **Information Sciences**, **IPM** | Values statistical validation |
+| **FEVER claim-only binary classification** | **Journal of Web Semantics**, **IPM** | Domain-relevant audience |
+| **Error analysis / misclassified claim export** | **Knowledge-Based Systems**, **Expert Systems** | Applied analysis appreciated |
+
+---
+
+## Top 3 Recommendations
+
+### 1. Information Sciences (Elsevier) ⭐ **Best Overall Fit**
+- **Why:** Paper #15 (Hou et al., 2025) in *your exact survey* published here — same domain (fact-checking/misinformation), same applied ML style
+- **Pros:** Good IF, reasonable timeline, accepts applied ensemble/comparison papers, values statistical rigor
+- **Cons:** High volume → stricter desk reject
+
+### 2. Knowledge-Based Systems (Elsevier) ⭐ **Fastest Turnaround**
+- **Why:** Loves "ensemble methods for classification" + "fact-checking applications" + "statistical comparison of classifiers"
+- **Pros:** Faster review (2–4 months), good IF, very applied audience
+- **Cons:** Less theoretical prestige than TKDE/DMKD
+
+### 3. IEEE TKDE ⭐ **Highest Prestige for Method**
+- **Why:** Core data engineering venue; stacking, cross-validation, and novel ensemble designs are in scope
+- **Pros:** High visibility, strong for method papers
+- **Cons:** Longer review (4–8 months), more theoretical depth expected
+
+---
+
+## Alternative: Conference-First Strategy
+
+Given your work has **novel method (cross-fold exchange) + large empirical study**, consider:
+
+| Conference | Deadline (typical) | Fit |
+|------------|-------------------|-----|
+| **EMNLP 2025** (Findings or Main) | May 2025 | NLP audience, fact-checking track, stacking methods welcome |
+| **NAACL 2025** | Oct 2024 / Feb 2025 | Same as EMNLP, North America |
+| **ACL 2025** | Nov 2024 / Mar 2025 | Top NLP venue; FEVER is well-known here |
+| **CIKM 2025** | Mar 2025 | Paper #7 (FANG) published here; data mining + IR audience |
+| **WWW 2025** | Oct 2024 | Web-scale verification, misinformation track |
+| **ICDM 2025** | May 2025 | Core data mining; stacking/ensemble methods |
+
+**Strategy:** Submit to **EMNLP/NAACL/ACL** first (conference paper, 8 pages + appendix), then extend to **Information Sciences / TKDE** (journal version, 30%+ new content).
+
+---
+
+## What You Need to Strengthen for Journal Submission
+
+| Gap | Action |
+|-----|--------|
+| **Theoretical grounding for cross-fold exchange** | Add a section: "Why exchange helps: bias-variance tradeoff in meta-learner training" + cite Wolpert 1992, Super Learner |
+| **Baselines from literature** | Compare against Schuster et al. (claim-only BERT, 61.7%), Thorne pipeline (50.9%), and any published stacking on FEVER |
+| **Ablation study** | Show: (a) no exchange (E0) vs exchange, (b) OOF vs non-OOF, (c) top-1 vs top-3 meta |
+| **Statistical rigor** | Full bootstrap CIs, Friedman/Nemenyi diagram, McNemar for all pairwise claims |
+| **Reproducibility** | Release code + data splits + seeds; mention in paper |
+| **Limitations section** | Honest: claim-only, balanced binary, DistilBERT fallback, not official FEVER metric |
+
+---
+
+## Recommended Strategy
+
+> **Target: Information Sciences (Elsevier)** — submit an extended journal version after a conference submission (EMNLP/NAACL Findings).  
+> **Why:** Your survey's Paper #15 is *literally in this journal* on fact-checking. The editor/reviewers will already know the domain. Your cross-fold stacking + massive empirical comparison (17×5×2) + statistical rigor fits their "applied ML for misinformation" sweet spot perfectly.
+
+---
+
+*End of journal.md*
